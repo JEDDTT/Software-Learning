@@ -1,0 +1,127 @@
+Course Title: Succeeding in Web Development: Full Stack and Front End
+
+Description: View Ray's LinkedIn NewsletterDo you want to become a web developer? Nowadays, web development isn't one job. There is a range of technologies and career options to explore. The core responsibilities are split two ways—between front-end developers who specialize in websites and applications and back-end developers who work with servers and databases—but you can also become a full-stack developer who oversees all aspects of a project. This course provides a map of the core technologies and advice about mastering them, complemented with the details you need to connect them to jobs. Senior staff author Ray Villalobos also provides tips on finding training, getting hired, and maximizing your earning potential in this lucrative and exciting field.
+
+
+***********************************************
+Chapter: 2. Core Technologies
+***********************************************
+
+
+-----------------------------------------------
+Video: HTML as the foundation
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:17            HTML stands for Hypertext markup language, it describes the content and defines the structure within a webpage. 
+
+0:00:24            Hypertext means documents are designed to be linked to each other. 
+
+0:01:33            Markup generates a DOM stands for Document Object Model, it defines the structure of a page and it is sort of an outline or a map of the content within a website. 
+
+0:01:49            The DOM is the way on how you access elements. 
+
+0:01:51            When upi add Markup tags to a document, you're building the map that defines the role of your content. 
+
+
+-----------------------------------------------
+Video: HTTP(S) for connecting
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:16            Protocols are languages used to share information between devices. 
+
+0:00:45            HTTP stands for HyperText Transfer Protocol. 
+
+0:01:11            HTTP uses 9 verbs but the common ones are GET, POST, DELETE. 
+
+0:01:51            One of the main advantages of HTTP 2 is multiplexing, which lets you send multiple requests at once. 
+
+
+***********************************************
+Chapter: 3. Core Concepts
+***********************************************
+
+
+-----------------------------------------------
+Video: How the internet works
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:06            TCP stands for Transmission Control Protocol and Internet Protocol. 
+
+
+-----------------------------------------------
+Video: Building accessible projects
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:01:23            ARIA, Accessible Rich Internet Applications, used to describe the role of your elements. 
+
+0:02:36            Google Light House Tool is used to increase accessibility in your website. 
+
+
+-----------------------------------------------
+Video: Design methodologies
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:01:44            Flexbox allows container to alter dimensions to fit the available space. 
+
+0:01:57            Grid Layout is a two-dimensional system that allows for careful control of both rows and columns. 
+
+
+-----------------------------------------------
+Video: Development approaches
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:02:24            MVC stands for Model-View-Controller. 
+
+0:02:34            Another way of organizing code is Component-Based Architecture. 
+
+
+-----------------------------------------------
+Video: Version control
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:28            Agile focuses on regrouping regularly to be sure your software can rapidly adjust to meet the customer needs. 
+
+0:00:53            DevOps, Software Development and IT operations. 
+
+0:01:08            The goal of DevOps is to minimize the time between writing a code and deployment. 
+
+
+***********************************************
+Chapter: 4. Supporting Technologies
+***********************************************
+
+
+-----------------------------------------------
+Video: Back-end languages
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:01:33            Back end languages for web developper: PHP, Node.js, .NET, Ruby on rails. 
+
+0:02:11            To be a web developer you need study at least one structured database language, one NoSQL language and at least one language for merging that with template. 
+
+
+-----------------------------------------------
+Video: Developer tools
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:02:08            Build process is a set of automatic commands that take care of common tasks. 
+
+
+-----------------------------------------------
+Video: APIs and services
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:51            Most APIs are considered restful, which is a service based on the hypertext Transfer Protocol. restful services used HTTP verb like GET and POST. 
+
+0:01:00            The request from APIs are usually return un JSON(JavaScript Object Notation). 
+

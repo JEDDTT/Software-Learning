@@ -1,0 +1,278 @@
+Course Title: Programming Foundations: Fundamentals
+
+Description: Gain the core knowledge to begin programming in any language. In this course, instructor Annyce Davis uses Python to explore the core concepts and structure of programming languages and helps you grasp what’s going on under the hood. After going over basic statements and expressions in Python, Annyce explores strings, variables, and conditional code—which are common topics in all programming languages. She also shows how to work with different kinds of data and troubleshoot a variety of errors. Along the way, she compares how code is written in several different languages and provides guidance on the criteria to use when choosing a programming language. Upon wrapping up this course, you’ll have the knowledge you need to continue your coding journey in whichever language piques your interest.
+
+
+***********************************************
+Chapter: 1. Programming Basics
+***********************************************
+
+
+-----------------------------------------------
+Video: What is programming?
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:01:08            1. Programming Basics:Programming is the process of converting an idea into instructions that a computers can execute. 
+
+0:01:27            A bugs is when something unexpected happens. 
+
+0:02:18            Computers are sequential. Order matters. Give the right instructions and the correct sequence of steps in order to get the desired result. 
+
+
+-----------------------------------------------
+Video: What is a programming language?
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:03            A programming language is used to provide a set of instructions to the computer in order to achieve a specific goal. 
+
+0:00:58            We use programming language to communicate with digital world. Programming Language has syntax rules. 
+
+0:02:38            The main reason we have multiple programming languages is each one of them comes with its strength and weaknesses. 
+
+
+-----------------------------------------------
+Video: Running your code
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:01:59            Computer compilers compile your code, convert it and send instructions to the computers. 
+
+0:01:59            Computer interpreters process your code line by line. 
+
+0:02:11            interpreting: let's say I want to communicate with someone who speaks Mandarin, I will need a person who speaks english and mandarin to translate my message and vice versa. 
+
+0:02:11            Compiling: Let's say I want to send an email to someone who speaks Mandarin, I will use a service that will convert my english email to mandarin and send it. 
+
+0:02:11            Interpreted Languages: PHP and JavaScript. 
+
+0:02:11            Compiled languages: C, C++ and Objective-C 
+
+0:02:22            Interpreted and Compiled languages are: Java, C# and Python. 
+
+
+-----------------------------------------------
+Video: Using an IDE
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:13            Enhance text plain editor are Integrated Development Environments. 
+
+0:01:11            An IDE is an application that helps developer with special tools needed to write, debug and compile code. 
+
+
+***********************************************
+Chapter: 2. Programming Syntax
+***********************************************
+
+
+-----------------------------------------------
+Video: Why Python?
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:20            Most popular language is Java, Python, JavaScript, C++ and C#. 
+
+0:00:34            When it comes to the ease of learning, both python and javascript have fewer syntax requirement and tend to be more concise. 
+
+0:00:43            Concise means it takes few line of code to get a specific task done. 
+
+0:00:44            The both languages Python and Javascript use structuring and wording that are closer to the human Language. 
+
+0:01:14            Python can be used for general purposes such creating web, internal company tools, scientific analysis and games. 
+
+
+-----------------------------------------------
+Video: Running Python on the command line on Windows
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:01:00            Syntax refers to the rules of a programming language. 
+
+
+-----------------------------------------------
+Video: Basic statements and expressions
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:20            Statement are the building blocks of any program and are the individual actions that you want your program to take. 
+
+0:00:22            Statements are made of keywords, Expressions and operators. 
+
+0:03:07            Please Excuse My Dear Aunt Sally. PEMDAS 
+
+
+-----------------------------------------------
+Video: Troubleshooting issues
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:06            There are two ways to write error-free programs; only the third one works. --Alan Perlis 
+
+0:00:51            Errors Categories: Syntax, Runtime and Semantic. 
+
+0:03:40            Semantic errors are the most challenging in coding, best make tiny changes and run your code. 
+
+
+***********************************************
+Chapter: 3. Variables and Data Types
+***********************************************
+
+
+-----------------------------------------------
+Video: Introduction to variables and data types
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:55            A variable is a container for a value. 
+
+0:03:15            A datatype allow us to put data or value in specific category such integer or string. 
+
+0:03:37            The type function helps to find about the data type of a variable. 
+
+
+-----------------------------------------------
+Video: Variables across languages
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:02:01            Variable names should only contain letter, number and underscores. 
+
+0:02:13            A variable name should not start with a number and Spaces are not allowed. 
+
+0:02:56            Names are case sensitive and variable can not be keyword. 
+
+0:03:03            import keyword print(keyword.kwlist) to obtain the keyword in python. 
+
+
+-----------------------------------------------
+Video: Working with numbers
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:01:20            Double asterisks is used for exponent (2  ** 3 = 2 * 2 * 2). 
+
+
+-----------------------------------------------
+Video: Working with strings
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:43            Strings are string of different character followed each other, string can be number, letter, symbols and spaces. 
+
+
+-----------------------------------------------
+Video: Properly using whitespace
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:02:37            print keyword is used to display and input keyword is used to get input from  a user. 
+
+
+-----------------------------------------------
+Video: Working with comments
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:01:34            Comments are made by using # in python. 
+
+0:03:02            Commenting up a code to avoid running it. 
+
+
+-----------------------------------------------
+Video: Challenge: What's the output?
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:16            print("2**3 =", result) => It will display 2**3 = 8. 
+
+0:00:16            print(message) => It will display: This is going to be tricky ;) 
+
+0:00:16            print("challenge 1:") => It will print: challenge 1: 
+
+
+***********************************************
+Chapter: 4. Conditional Code
+***********************************************
+
+
+-----------------------------------------------
+Video: Making decisions in code
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:01:42            Relational operators works with two operands and return true or false. 
+
+0:01:52            Equality operator in python is represented by ==. 
+
+0:03:28            Not equal is represented by != 
+
+
+-----------------------------------------------
+Video: Exploring conditional code
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:01:37            The indentation in python is used to group code into blocks. 
+
+0:04:18            It is standard to use four spaces to add indentation, easily added by using Tab key on the keyboard. 
+
+
+***********************************************
+Chapter: 5. Modular Code
+***********************************************
+
+
+-----------------------------------------------
+Video: Introduction to functions
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:12            A function is block of code packaged together with a name. 
+
+0:00:49            A function helps us to avoid writing the same line of code again and again. 
+
+
+-----------------------------------------------
+Video: Creating and calling functions
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:21            def keyword is used to declare a function in python. 
+
+0:01:27            def name_of_the_function :     
+
+
+-----------------------------------------------
+Video: Setting parameters and arguments
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:04:02            Parameters allow functions to change their behavior based on some input. 
+
+0:04:29            Arguments are used as a name to our value in a function or the value of a parameter. 
+
+0:04:33            Arguments are the value used when a function is called. 
+
+
+-----------------------------------------------
+Video: Functions across languages
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:42            We have 4 function categories: Those that have no parameters and no return value, no parameters but do return a value, those that have parameters and don't return a value and those have both parameters and values. 
+
+
+***********************************************
+Chapter: Conclusion
+***********************************************
+
+
+-----------------------------------------------
+Video: Exploring languages
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:01:33            A library is a grouping of variables and functions that someone else has written and verified. 
+

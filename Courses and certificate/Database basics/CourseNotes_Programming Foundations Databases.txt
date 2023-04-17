@@ -1,0 +1,338 @@
+Course Title: Programming Foundations: Databases
+
+Description: More from LinkedIn Learning's top expertsProgramming Languages NewsletterOnce you get beyond basic programming, you'll need a database. Databases provide a consistent, organized structure for storing and retrieving large amounts of data. They allow programmers to build more complex applications that can take orders, process payments, make recommendations, authenticate users, and more. This course provides the foundation you need to get started in database programming. Explore the terminology: normal forms, ACID and CRUD, referential integrity, transactions, records, and tables. Learn what role keys and unique values play in a relational model. Discover how to design the best system to contain your data, starting with the tables and relationships at the core of your database. Find out how to write queries to extract the data you need, and how to juggle the different demands of storage, access, performance, and security. Instructor Scott Simpson provides practical examples and clear explanations that will help you design databases that can withstand the needs of your applications, your data, and your users.
+
+
+***********************************************
+Chapter: Introduction
+***********************************************
+
+
+-----------------------------------------------
+Video: Why use a database?
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:20            A database is a structure that stores information in an organized, consistent, reliable and searchable way. 
+
+
+-----------------------------------------------
+Video: Understanding databases: Benefits of spreadsheets
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:04            A DBMS is the software, like SQL Server, MySQL or Access. we use to interact with database. 
+
+0:00:13            A database give a way to structure our data and to define rules that the data must follow. 
+
+0:01:41            Rows are called records and Columns are called field. 
+
+
+-----------------------------------------------
+Video: Understanding databases: Benefits of structured data
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:01:52            A databases provide structure for data, allow enforcement of rules for data and protect data from unauthorized access or changes. 
+
+
+***********************************************
+Chapter: 1. Database Foundations
+***********************************************
+
+
+-----------------------------------------------
+Video: Relational databases
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:26            Rows represent instances of a given entity, columns represent attributes of each entity. 
+
+0:00:32            Set of columns are relation.   
+
+
+-----------------------------------------------
+Video: Keys and unique values
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:01:18            A key is a value we can use to refer to only one specific row or record. 
+
+0:01:31            A table does not require a primary key but having one helps to access specific record easily. 
+
+0:01:49            A synthetic or surrogate key is a key value provided by the database that increments every time an instance is added. 
+
+0:02:04            Composite key is two or more fields taken together to act as a unique identifier. 
+
+0:02:19            A foreign key is a primary key from another table when it is referenced to another table. 
+
+
+-----------------------------------------------
+Video: Relationships
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:34            There are 3 kind of databases relationship which are: one to many, Many to many and One to one. 
+
+0:01:38            Associative or linking table contains columns for the foreign keys from the tables we are associating. 
+
+
+-----------------------------------------------
+Video: ACID and transactions
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:01:12            A transaction is a set of operations that must all be completed. and if any of this individual operation failed, no changes are made to the database. 
+
+0:01:26            Transaction follows a set of operations called ACID which stands for Atomic, Consistent, Isolated and Durable. 
+
+0:01:31            Atomic means that the transaction is indivisible, it can not be separated. 
+
+0:01:41            Consistency means that any transaction needs to leave the database in a valid or consistent state. The action in a transaction can not violate integrity rules. 
+
+0:01:49            Isolation means while the transaction operations are being completed, nothing else can make changes to the data involved. 
+
+0:02:12            Durability means that the information we change in the transaction actually gets written to the database. 
+
+
+-----------------------------------------------
+Video: Basic SQL
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:10            SQL often sequel, it stands for Structured Query Language. 
+
+0:00:17            RDBMS stands for Relational DataBase Management System. 
+
+0:01:00            Data manipulation Language (DML) allows statements to be written for DBMS to interpret how to interact with data. 
+
+0:01:13            When SQL offers feature to manage the database itself. such as creating or modifying tables and controlling access to tables, SQL is called a data definition language (DDL) and a data control language (DCL). 
+
+0:01:38            SQL statement is composed of clauses which can contain expression and predicates. 
+
+0:01:43            A clause will contain a keyword specifying which action to take and something to act on or use. 
+
+0:01:56            Expression and predicate set parameters within which to  operate. 
+
+0:03:39            CRUD stands for Create, Read, Update and Delete. 
+
+
+***********************************************
+Chapter: 2. Tables
+***********************************************
+
+
+-----------------------------------------------
+Video: Modeling and planning a database
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:27            Entity Relationship Diagram(ER Diagram) is a diagram that uses tables, fields, and relationships to plan a database. 
+
+
+-----------------------------------------------
+Video: Columns and data types
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:57            CHAR: Fixed number of characters. VARCHAR: Variable number of characters up to a maximum length. 
+
+0:00:57            Strrings: Alphanumeric characters and text 
+
+
+-----------------------------------------------
+Video: Primary and foreign keys
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:01:06            UUID stands for Universally-Unique Identifier. 
+
+
+***********************************************
+Chapter: 3. Relationships
+***********************************************
+
+
+-----------------------------------------------
+Video: One-to-one relationships
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:44            One to one relationship is often use for security purpose. 
+
+
+-----------------------------------------------
+Video: Relationship rules and referential integrity
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:12            Referential integrity which means that the databases are aware of the relationships and won't allow a user to modify data in a way that violates those relationships. 
+
+
+***********************************************
+Chapter: 4. Database Optimization
+***********************************************
+
+
+-----------------------------------------------
+Video: Normalization
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:05            Edcar Codd defined three rules for organizing data in a database. 
+
+0:00:09            These rules are called normalization rules which help us to reduce redundancy and improve integrity in the database. 
+
+0:00:18            These rules are the first normal form (1NF), second normal form (2NF) and the third normal form(3NF). 
+
+
+-----------------------------------------------
+Video: First normal form
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:18            First Normal Form (1NF), Values in each cell should be atomic and tables should have no repeating groups. There  are not duplicate rows in a table. 
+
+0:01:20            First normal form can be solved by applying a liking table. 
+
+0:01:41            We must avoid repeating row at all cost in the first normalization form. 
+
+
+-----------------------------------------------
+Video: Second normal form
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:03            The second normal form: No value in a table should depend on only part of a key that can be used to uniquely identify a row. 
+
+0:00:18            In the second form the values must describe something about a row that we can not determine from just the part of a key. 
+
+
+-----------------------------------------------
+Video: Third normal form
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:02            Third Normal Form: Values should not be stored if they can be calculated from another non-key field. 
+
+0:00:06            The second normal form tell us that we shouldn't be able to determine a value in a column from only part of a composite key. 
+
+0:00:13            The third normal form tells us we shouldn't be able to figure out any value in a column from a field that isn't a key. 
+
+
+-----------------------------------------------
+Video: Denormalization
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:13            Denormalization is the process of intentionally duplicating information in a table, in violation of normalization rules. 
+
+
+***********************************************
+Chapter: 5. Querying a Database
+***********************************************
+
+
+-----------------------------------------------
+Video: Aggregate functions
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:01:02            COUNT keyword counts the number of a record of a specific attribute appears in a table. 
+
+0:01:43            SUM keyword is used to get the sum of records of a specific attribute in a database. 
+
+0:02:11            AVG gives average              
+
+0:02:13            Min keyword gives the minimum amount. 
+
+0:02:13            Max keyword gives the Maximum amount of records. 
+
+
+SQL keywords to memorize:
+
+Some of The Most Important SQL Commands
+SELECT - extracts data from a database
+UPDATE - updates data in a database
+DELETE - deletes data from a database
+INSERT INTO - inserts new data into a database
+CREATE DATABASE - creates a new database
+ALTER DATABASE - modifies a database
+CREATE TABLE - creates a new table
+ALTER TABLE - modifies a table
+DROP TABLE - deletes a table
+CREATE INDEX - creates an index (search key)
+DROP INDEX - deletes an index
+
+SELECT * FROM Customers;
+SELECT column1, column2, ...
+FROM table_name;
+
+SELECT DISTINCT column1, column2, ...
+FROM table_name;
+
+SELECT COUNT(DISTINCT Country) FROM Customers;
+
+SELECT Count(*) AS DistinctCountries
+FROM (SELECT DISTINCT Country FROM Customers);
+
+SELECT column1, column2, ...
+FROM table_name
+WHERE condition;
+
+Condition to use with the WWHERE Keyword
+
+Operator	Description	Example
+=	Equal	
+>	Greater than	
+<	Less than	
+>=	Greater than or equal	
+<=	Less than or equal	
+<>	Not equal. Note: In some versions of SQL this operator may be written as !=	
+BETWEEN	Between a certain range	
+LIKE	Search for a pattern	
+IN	To specify multiple possible values for a column
+
+SELECT * FROM Customers
+WHERE NOT CITY = 'Berlin';
+
+SELECT column1, column2, ...
+FROM table_name
+WHERE condition1 AND condition2 AND condition3 ...;
+
+OR Syntax
+SELECT column1, column2, ...
+FROM table_name
+WHERE condition1 OR condition2 OR condition3 ...;
+NOT Syntax
+SELECT column1, column2, ...
+FROM table_name
+WHERE NOT condition;
+
+SELECT * FROM Customers
+WHERE Country='Germany' AND (City='Berlin' OR City='München');
+
+SELECT column1, column2, ...
+FROM table_name
+ORDER BY column1, column2, ... ASC|DESC;
+
+INSERT INTO table_name (column1, column2, column3, ...)
+VALUES (value1, value2, value3, ...);
+
+2. If you are adding values for all the columns of the table, you do not need to specify the column names in the SQL query. However, make sure the order of the values is in the same order as the columns in the table. Here, the INSERT INTO syntax would be as follows:
+
+INSERT INTO table_name
+VALUES (value1, value2, value3, ...);
+
+IS NULL Syntax
+SELECT column_names
+FROM table_name
+WHERE column_name IS NULL;
+IS NOT NULL Syntax
+SELECT column_names
+FROM table_name
+WHERE column_name IS NOT NULL;
+
+UPDATE table_name
+SET column1 = value1, column2 = value2, ...
+WHERE condition;
