@@ -1,0 +1,682 @@
+Course Title: CSS Essential Training
+
+Description: Cascading Style Sheets (CSS) is a stylesheet language that allows you to control the appearance of your webpages. In this hands-on course, Christina Truong demonstrates the concepts that form the foundation of CSS, explaining what you need to know to tweak existing CSS and write your own. Christina explains how to add colors and other design elements to take your webpages beyond just black text on a white background. She shows how to use selectors, how the box model defines the spacing and sizing of page elements, and how to style text and manage basic layouts with Flexbox and Grid. She also covers working with advanced selectors, creating fluid layouts, and determining when to use the float and position properties. Plus, at the end of the course, you'll walk away with an actual project—an online résumé page.
+
+
+***********************************************
+Chapter: 1. Getting Started
+***********************************************
+
+
+-----------------------------------------------
+Video: HTML and CSS
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:59            HTML controls the structure of contents and semantic meaning while CSS controls the appearance and styling. 
+
+
+-----------------------------------------------
+Video: Browser developer tools
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:01:55            In safari and chrome the default styles are listed under the User Agent Stylesheet, which refers to the browser stylesheet. 
+
+
+-----------------------------------------------
+Video: Referencing CSS
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:03:10            There are 3 method to use CSS:
+External CSS: we can be use into HTML with a link tag(always referenced within the <head> element) or using the @import method. 
+
+0:03:36            and Inline method: It uses a style attribute and style element. the inline method can cause conflict and it is not reusable. 
+
+0:03:40            The thrid option to add CSS is the internal method which uses the style element(tag). 
+
+
+-----------------------------------------------
+Video: Optimizing images and retina displays
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:01:21            Pixel density refers to the number of pixels within a page, measured in pixels per inch (PPI) or dots per inch (DPI). 
+
+0:01:25            Retina displays have the double the number of PPI/DPI. 
+
+0:02:28            project thumbnails= 600px width
+background images = 1400px to 2000px width. 
+
+
+-----------------------------------------------
+Video: Project: Relative paths
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:20            When linking to files within the same project use a relative path. 
+
+
+-----------------------------------------------
+Video: Absolute paths
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:07            Absolute paths refers to a resource located on a server. 
+
+0:00:36            Hotlinking is linking to a specific file such as images and embedding them into your own pages> Hotlinking should be avoided. 
+
+
+***********************************************
+Chapter: 2. Core Concepts
+***********************************************
+
+
+-----------------------------------------------
+Video: CSS syntax and terminology
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:26            img is a selector and selectors are used to apply the styles.
+{} is a declaration block: it includes one or more style rules to the specific selector 
+
+0:00:54            width is a property which refers to the style characteristic to be applied to the element. 
+
+0:01:31            /* Write your comment between here. */ Syntax for comment. 
+
+
+-----------------------------------------------
+Video: CSS values and units
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:01:23            Unitless values: Some numeric values do not require a unit. 
+
+0:01:23            The length datatype which used to specify sizing with two types of units: absolute and relative.
+Absolute length values are: fixed unit(Always the same size, Not affected by values in related elements.
+Relative length units are: relational sizing(not fixed), dependent upon values declared in parent and ancestor elements. 
+
+0:01:28            example of unitless values: line-height: 1.25. 
+
+0:01:39            CSS function: transform: rotate(); ( rotate() is a function.). 
+
+
+-----------------------------------------------
+Video: The color and property values
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:13            The basic color keywords values are: red, blue, green, black. 
+
+0:00:13            The color property is the most used property in css. 
+
+0:00:21            Extended color keywords values: mediumseagreeen, oldlace, aliceblue, blanchedalmond. 
+
+0:00:45            RGB: rbg values define colors according to its red, green, and blue components. 
+
+0:00:54            Hexidecimal values are prefixed with a number sign (#) followed by six characters (0-9 and A-F). 
+
+0:01:07            The hexidecimal value defines the red, green , and blue value; #rrggbb. 
+
+0:01:22            The hex value can be abbreviated if the RGB values are the same. 
+
+0:01:34            The rgb() function has 3 comma-separated numbers between 0-255 or 0%-100%, RGB(0, 0, 0) black, 
+
+0:01:49            rgba() and a fourth value to change the opacity. 
+
+0:02:22            hsl() function defines the color valueby its hue, saturation and lightness. 
+
+0:02:30            The Hue is specified as an angle, the value can be declared with or without the degree unit. hsl(270, 60%, 70%) or hsl(270deg, 60%, 70%). 
+
+0:02:52            The saturation is represented with a percentage, 100% is full saturation, 0% is gray. 
+
+0:03:01            Lightness is represented as a percentage. 100% = white, 0% = black, 50% = normal. 
+
+0:03:09            The alpha channel as in rgba can be represented as a decimal or percentage. 
+
+
+-----------------------------------------------
+Video: Type and universal selectors
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:41            * is the universal selector, it matches to all elements, of any type. 
+
+
+-----------------------------------------------
+Video: Class and ID selectors
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:33            Class selector is reusable, and it is accessed by using dot and its name. ex: .card. 
+
+0:01:11            You can also use more than one class in the same element, by adding another class name to the value, the value must be separated with a space and contained within the quote. 
+
+0:01:44            Inorder to use the ID selector, add the ID attribute to other HTML element(as the class selector), you define the value, The value is the selector, starting with a # symbol in CSS, can only be used once per page. 
+
+0:01:47            ID selector can be used for CSS and in-page linking. 
+
+0:01:57            <a href="#example"> Links to a spot on the page </a>
+<section id="example"> Link goes here</section>
+
+#example{...} 
+
+0:03:05            Naming conventions: instead of spaces, use a hyphen or underscore, use meaningful and descriptive names easily understood abbreviations. 
+
+
+-----------------------------------------------
+Video: Descendant selectors
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:08            The document Object Model(DOM) represents the relationship between HTML elements. When a HTML element is nested under another HTML element, a relationship between these elements are created, describes by DOM. 
+
+0:00:30            Descendant selectors are used to apply styles specifically to element nested within another element. 
+
+
+-----------------------------------------------
+Video: Grouping selectors
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:53            Grouping selector: section h1, h2 {} => expands to section h1 {} and h2 {}
+<section h1, section h2 {} => expand to section h1{} section h2{}. 
+
+0:01:04            Grouping selctor is used to apply a style to a multiple elements: 
+h1, h2, h3 {
+font-weight: normal:
+} 
+
+
+-----------------------------------------------
+Video: Inheritance and specificity
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:03            Inheritance: CSS Styles can be inherited from the ancestor to descendant elements. 
+
+0:01:24            Specificity determines how browsers decide which CSS rule takes precedence.
+1. universal (*)
+2. type(p)
+3. class (.example)
+4. id (#exemple) 
+
+0:01:37            Universal selector(*) has lowest specificity which means all other type selectors will overide it. 
+
+0:01:45            The only declarations the universal selector can overide is inherited styles. 
+
+0:01:53            A type selector will overide the universal selector, 
+
+0:01:58            The class selector will override both the universal and the type selectors. 
+
+0:02:05            The ID selector will override all selectors. 
+
+0:02:25            The specific selector will not overide the ID and class selector, but it will overide the universal and type selector. 
+
+
+-----------------------------------------------
+Video: The cascade and importance
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:05            The cascade in cascading style sheets refer to how style rules are applied based on specificity and source order. 
+
+0:00:17            Style declaratios cascade are read from top to bottom, the declaration that was loaded last will take precedence. 
+
+0:01:02            The !important keyword overrides source order and specificity. 
+
+0:01:19            The only way to override the !important keyword is to use a selector with a higher specificity and the important keyword. 
+
+0:01:36            It is useful to use the !important keyword but it is a bad pratices. 
+
+
+-----------------------------------------------
+Video: Pseudo-class selectors and links
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:02:15            Pseudoclasses tha can be used the <a> element are a:link, a:visited, a:focus, a:hover, a:active. 
+
+
+***********************************************
+Chapter: 3. The Box Model
+***********************************************
+
+
+-----------------------------------------------
+Video: Introduction to the box model
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:01:02            The five properties that are used for a box models: Width, Height, Padding, Margin, Border. 
+
+
+-----------------------------------------------
+Video: Inline, block, and display
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:08            There are two type of HTML elements: inline and block-level. 
+
+0:00:14            Inline element takes up the same space as their content, they are displayed in a line, from the left. 
+
+0:00:21            The inline elements will only wrap when items cannot fit. 
+
+0:00:50            Block element takes same height as content, same width as container. Always starts on a new line. 
+
+0:00:56            The display property is used to change the default behavior of inline and block-level elements. 
+
+0:02:27            display: inline; //makes a block element to act like an inline element.
+
+display: block: //makes an inline element to act like a block element. 
+
+0:02:49            The most common value is display: inline-block: which displays block elements side by side (Just know that this one is better than other ones). 
+
+
+-----------------------------------------------
+Video: The box model properties
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:28            CSS The box model: each box consists of 4 parts:
+1. The content box: contains the actual content added between the HTML tags, such as text or an image.
+2. Padding box: surrounds the content area.
+3. The border box: Which surrounds the padding area.
+4. Margin box: surrounds the entire element. 
+
+0:00:49            Box properties:
+1. Width: It is used to set the width of an element.
+2. Height: It is used to set the height of an element.
+3. Padding: Add or remove spaces within an element.
+4. Margin: Add or remove spaces around the element.
+5. Border: border is added between padding and margin. 
+
+
+-----------------------------------------------
+Video: The box properties syntax and usage
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:00            em: Represents inherited font-size of element.
+rem: represents the font-size of the root element. 
+
+0:00:13            WIth inline element, width and height have no effect unless we use the display property set block or inline-block. 
+
+0:00:40            padding: 2px, 2px, 2px, 2px; // TOP RIGHT BOTTOM LEFT 
+
+0:01:50            border-width, border-style, border-color: red. 
+
+
+-----------------------------------------------
+Video: Padding, margin, and border
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:02:59            display: inline-block; It takes the characteristics of inline and block element. 
+
+
+-----------------------------------------------
+Video: Margin and layouts
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:50            Another way margin can be used for layout is to center align block elements horizontally. by using margin: 0 auto; 
+
+
+***********************************************
+Chapter: 4. Typography
+***********************************************
+
+
+-----------------------------------------------
+Video: Typography for the web
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:06            Typography is the art of arranging type for readability and to engage and communicate with the reader. 
+
+0:00:18            Typeface is a set of fonts designed with common characteristics and composed glyph. 
+
+0:01:24            5 categories of typefaces: Script, decorative, Monospace, serif and sans-serif. 
+
+0:01:39            Script fonts have an elegant look and are harder to read when small. 
+
+0:01:47            Scrip fonts are often used for weeding invitations or greeting cards. 
+
+0:01:51            For the web, script fonts are reserved for headlines or small decorative text details. 
+
+0:02:04            Decorative typefaces are ornamental, they tend to have personalities, and they are reserved for headings and decorative details when used for the web. 
+
+0:02:25            Monospace fonts, each character used the same amount of horizontal space. each character is the same width, they are often used for displaying code. 
+
+0:02:34            Serif typefaces are distinguish by a small decorative line usually at the top or bottom of the letters. Serif fonts tend to be viewed as traditional and formal. 
+
+0:02:38            Sans-serif typefaces do not have decorative lines, they are seen as contemporary and modern. 
+
+
+-----------------------------------------------
+Video: Changing the font-family
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:01:20            Web-safe fonts: Fonts that are commonly pre-installed on the majority of computers or devices ex: Arial, Times New Roman. 
+
+0:02:12            Use backslash for fonts that require numbers and characters when using font-family property. 
+
+0:02:26            Or you can use quotes.         
+
+0:02:27            Generic font names(arial, New times roman) must always be declared without quotes. 
+
+
+-----------------------------------------------
+Video: Font-weight and font-style
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:46            font-weight property is used to set the font size, 
+
+
+-----------------------------------------------
+Video: Text-decoration, text-align, and line-height
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:17            text-decoration: underline red solid => line, color and style. 
+
+0:01:04            text-align property can be used to align content within a block element, You can add it to the HTML element itself to the parent element. 
+
+0:01:18            line-height property sets the height of the space between two lines of text. 
+
+
+***********************************************
+Chapter: 5. Layouts: Float and Position
+***********************************************
+
+
+-----------------------------------------------
+Video: Introduction to float
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:14            Float was used for creating an entire document layouts, such as adding a sidebar to the main content area or creating multiple columns. 
+
+
+-----------------------------------------------
+Video: The float and clear properties
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:02:26            The clear property is used to apply a normal flow to a specific element. or to clear the float property on an element, 
+
+
+-----------------------------------------------
+Video: Float and collapsed container
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:30            If all the elements within the container are floated, the height of the parent container will collapse to zero. 
+
+0:01:19            overflow property is used to specify how to display content that does not fit in its container. 
+
+0:02:08            The hidden value for overflow property is used to clip the overflow of content, this may be used for decorative content, like an image, but it is not useful for text. since clipped content can not be accessed,
+
+The auto value adds a scroll bar but only when there is overflowing content.
+
+The scroll value will always show a scroll bar on the x and Y axis, even when the content does not flow outside of its container. 
+
+0:02:58            The second option is to add a CSS snippet (clearfix: after { content: ""; display: table: clear: both:}) to the parent of floated elements. when adding a class to the HTML element, do not include the colon after ( which is a pseudo element and is used in conjunction with another selector). 
+
+0:03:41            The third option is to used the display property with a value of flow-root in the parent container, but it is not currently used to all the browser. 
+
+
+-----------------------------------------------
+Video: Layouts and the box model
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:03:40            When adding elements within a container we need to make sure that those elements' height and width should not be over the container's height and width.
+Another option to maintain the element's height and width within a container is to change how the box model interprets the size of the boxes with the box-sizing property. 
+
+0:04:18            The initial box-sizing value is content-box, Width and height values change the size of the content-box, when padding and border styles are added they increase the size of the elements, adding the width and height of the content box.
+Using the border-box value instead, we will include the padding and border space within the dimension set with the width and height properties. The overall element will maintain the same width and height values without any adjustments. 
+
+0:05:07            It is sometimes referred  as the box model fix. 
+
+
+-----------------------------------------------
+Video: Position
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:18            The position property can also be used to change the flow of the document. there are 5 different values each responsible for a different type of positioning.
+
+Static: not positioned.
+relative: relative to current position
+absolute: relative to containing element
+fixed: relative to the viewport.
+sticky: relative to containing element and viewport. 
+
+0:00:30            Position is also used with a combination of the top, right, bottom and left properties. 
+
+
+-----------------------------------------------
+Video: Position and z-index
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:02:43            Every time elements are added within a container, the elements are stacked in layers on the Z axis(called the stacking content). An element with a higher stack level is rendered in front of an element with a lower stack level. 
+
+
+***********************************************
+Chapter: 6. Layouts: Flexbox and Grid
+***********************************************
+
+
+-----------------------------------------------
+Video: Introduction to Grid and Flexbox
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:52            Flexbox is great for space distribution of items within the same axis.
+Gridnis ideal for layouts that require more control with rows and column. 
+
+
+-----------------------------------------------
+Video: Introduction to Flexbox
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:26            Flex container: The parent element
+Flex-items: The child elements. 
+
+0:00:42            flex items are arranged horizontally or in rows by default. 
+
+0:00:48            The drirection of the axis be changed vertically by using the flex direction property. 
+
+0:01:23            We use the display property to change the behavior of inline and block-level elements.
+The display property is also used to set the flex-container with one of two values: Flex or inline-flex 
+
+0:02:02            If you set the display value to inline-flex, the flex-container will span the width of its content, the flex items and displays inline to other flex-containers.
+Inline flex does not change how the flex items are displayed, instead, it makes the flex-container display inline. 
+
+
+-----------------------------------------------
+Video: Flexbox: Orientation and ordering
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:04            Flex-direction: determines the direction of the main axis
+There are four values: row, row-reverse, column and column-reverse. 
+
+0:01:25            Nowrap is the default value meaning flex items will not wrap. 
+
+
+-----------------------------------------------
+Video: Flexible sizing
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:16            There are 3 properties to set the sizing of flex items:
+flex-basis: sets the initial size of the flex-items
+flex-grow: determines how items will expand if there is extra space in the container
+flex-shrink: determines how items will shrink if there is not enough space in the container. 
+
+0:00:16            flex-wrap: wrap => The items that do not fit will wrap to the next line..
+We can also simultaneously change the order by using the wrap-reverse value. 
+
+0:00:24            It is recommended to use the short:hand:
+flex: grow shrink basis; 
+
+0:00:40            flex: 0 1 100px;               
+
+
+-----------------------------------------------
+Video: Introduction to CSS Grid
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:15            To align items in a flex container we use two property:
+justify-content: aligns items on the main axis
+align-items: aligns items on the cross axis.
+To center a flex item, the center values must be assigned to both of the properties above. 
+
+0:00:20            To align items in a flex container we use two property:
+justify-content: aligns items on the main axis
+align-items: aligns items on the cross axis.
+To center a flex item, the center values must be assigned to both of the properties above. 
+
+0:00:28            grid container: The parent element.
+grid items: The child elements within the grid container. 
+
+0:01:53            grid can be used with two values on the display property: grid or inline-grid.
+Using the value grid: unless specified the item will span the width of its container.
+Using inline-grid: the item will span the width of its content. 
+
+0:02:00            The space between two adjacent grid lines is the grid track. which is basically the columns and rows. 
+
+0:02:08            A grid cell refers to a single unit defines by the grid row and column interset. 
+
+0:02:20            Grid track can optionally be separated by a gutter. 
+
+
+-----------------------------------------------
+Video: The explicit grid
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:28            To define a specific number of grid lines and tracks use grid-template-columns and grid-template-rows.
+These properties are defined in the grid container with values expressed as a track list separated by a space to designate the number of tracks. 
+
+0:00:56            The grid layout introduced a new flexible length unit fr.
+fr: represents a fraction of the available space in the grid container. 
+
+0:01:34            We can also use the repeat() function: repeat({number of tracks}, {size of tracks}).
+grid-template-columns: repeat (3, 1fr):
+The repeat function can also be used to repeat just part of the track listing.
+grid-template-colums: 50px repeat(2, 1fr): 
+
+0:02:13            Currently gap for flexbox is only supported in firefox. 
+
+0:02:13            Gutters can also be added between grid items using the gap property. One value adds the same amount of space between the rows and columns, two values set the gutter for the rows then the columns.
+Gap can be used with any length unit, the calc function or a percentage but not the fr unit. 
+
+
+-----------------------------------------------
+Video: The implicit grid
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:01:34            To define the size of the implicit grid tracks, use the grid-auto-rows and grid-auto-columns using the same values and syntax as grid-template-rows and grid-template-columns. 
+
+
+-----------------------------------------------
+Video: Grid placement properties
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:27            Position-based properties must be applied to the grid items to determine their placement within a grid.
+These properties are grid-column = grid-column-start grid-column-end
+grid-row = grid-row-start grid-row-end. 
+
+
+***********************************************
+Chapter: 7. Advanced Selectors
+***********************************************
+
+
+-----------------------------------------------
+Video: Relational selectors: Combinators
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:13            Descendant Selectors create matching patterns based on the relationship between nested elements. 
+
+0:00:35            Child combinator (>) only matches to the direct child element. 
+
+0:01:11            Sibling combinators (+, ~) match the elements that share the same parents.
+Adjacent Sibling combinators(+) match only the element on the right which is also the element directly after the selector on the left.
+General sibling combinator (~) matches to any sibling element after the selector on the left, use the tilde symbol. 
+
+
+-----------------------------------------------
+Video: Pseudo-class selectors: First and last
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:52            There are also pseudo class selectors for selecting a specific child element based on its order.
+first-child and last-child can be used to apply a style.
+first-of-type and last-of-type are used to apply style to the first or last-child element of its type and will disregard child element that did not match the type. 
+
+
+***********************************************
+Chapter: 8. Fluid and Responsive Layouts
+***********************************************
+
+
+-----------------------------------------------
+Video: Project: Creating fluid layouts
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:09            A responsive web design requires a fluid layout, flexible images and media queries. 
+
+
+-----------------------------------------------
+Video: Flexible background images
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:03:44            Images that are part of the content should be added with HTML
+Images that are presentational should be added with CSS. 
+
+0:04:01            Background-size must declare after the background position and separated with a forward slash.
+background-size may be declared independently. 
+
+
+-----------------------------------------------
+Video: Introduction to media queries
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:32            media queries are responsible to modify the cs depending on specific conditions, defined with a media type and media feature. @media rule. 
+
+0:01:13            Media type are:                
+
+0:01:23            Media type are :
+1. All: matches to all devices
+2. print: matches to printers and print-related displays
+3. speech: matches to screen reading devices that read out a page
+4. screen: matches all devices that aren't categorized as print or speech. 
+
+0:02:11            Media features are used to test a specific feature of the device. 
+
+
+-----------------------------------------------
+Video: Media queries, widths, and breakpoints
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:30            The most common feature used with media query is width, when using media queries we need to specify the width before making a change to the layout.
+Breakpoints refer to the points where you choose to make adjustments to the design and layout because it starts to break. 
+
