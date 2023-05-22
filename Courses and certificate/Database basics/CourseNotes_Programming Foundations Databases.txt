@@ -336,3 +336,12 @@ WHERE column_name IS NOT NULL;
 UPDATE table_name
 SET column1 = value1, column2 = value2, ...
 WHERE condition;
+
+Union is used to unify a specific column to get all records of tables involved. ex: 
+SELECT City FROM Customers
+UNION
+SELECT City FROM Suppliers
+ORDER BY City;
+
+it gives all city records in the database from customer and supplier tables.
+
