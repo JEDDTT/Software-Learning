@@ -153,7 +153,7 @@ Note Time:         Note Text:
 
 0:01:11            You can also use more than one class in the same element, by adding another class name to the value, the value must be separated with a space and contained within the quote. 
 
-0:01:44            Inorder to use the ID selector, add the ID attribute to other HTML element(as the class selector), you define the value, The value is the selector, starting with a # symbol in CSS, can only be used once per page. 
+0:01:44            In order to use the ID selector, add the ID attribute to other HTML element(as the class selector), you define the value, The value is the selector, starting with a # symbol in CSS, can only be used once per page. 
 
 0:01:47            ID selector can be used for CSS and in-page linking. 
 
@@ -183,7 +183,7 @@ Note Time:         Note Text:
 0:00:53            Grouping selector: section h1, h2 {} => expands to section h1 {} and h2 {}
 <section h1, section h2 {} => expand to section h1{} section h2{}. 
 
-0:01:04            Grouping selctor is used to apply a style to a multiple elements: 
+0:01:04            Grouping selector is used to apply a style to a multiple elements: 
 h1, h2, h3 {
 font-weight: normal:
 } 
