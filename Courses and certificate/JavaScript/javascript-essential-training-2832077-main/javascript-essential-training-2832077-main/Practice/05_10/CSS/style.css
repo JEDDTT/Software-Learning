@@ -38,11 +38,13 @@ figure {
   content: "⚍⚌⚍";
 }
 
-.navList {
+.main-navigation .navList {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  display: flex;
   overflow: hidden;
+  justify-content: center;
   background-color: #333;
 }
 

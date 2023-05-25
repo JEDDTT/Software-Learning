@@ -71,10 +71,15 @@ newArticle.classList.add("backpack");
 newArticle.setAttribute("id", "everyday");
 newArticle.innerHTML = content; // inserting the content within the html element
 
+const mainNav = document.createElement("nav");
+mainNav.classList.add("main-navigation");
+mainNav.setAttribute("id", "mainNavId");
 const newUl = document.createElement("ul");
 newUl.classList.add("navList");
 newUl.setAttribute("id", "navId");
 newUl.innerHTML = navContent;
+mainNav.append(newUl); // try to use also innerHTML later on to see if it works, but I believe it works.
 
-header.prepend(newUl);
+header.prepend(mainNav);
+
 main.append(newArticle);
