@@ -11,3 +11,17 @@
  * Query the style property of an element in the console to get a list of all the style
  * properties available
  */
+
+document.querySelector("main").classList.add("mainBody");
+
+document.querySelector("main").classList.remove("mainBody");
+
+document.querySelector("main").setAttribute("id", "mainBod");
+
+document.querySelector("main").getAttribute("id");
+
+document.querySelector("main").setAttribute("id", "mainBod2");
+
+document.querySelector(".site-title").style.color = "red";
+
+document.querySelector("main").style;
