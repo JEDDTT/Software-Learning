@@ -3,6 +3,13 @@
  * @link https://developer.mozilla.org/en-US/docs/Web/API/Element/querySelector
  * @link https://developer.mozilla.org/en-US/docs/Web/API/Element/querySelectorAll
  */
+/**
+ * Create a new element for a nav menu
+ * Add unordered list with five items ||Home, about, contact...
+ * Add a new navigation menu to the DOM directly after the header
+ * Write basic CSS for a horizontal menu|| use display: flex, or grid
+ *
+ */
 
 import Backpack from "./Backpack.js";
 
@@ -15,7 +22,7 @@ const everydayPack = new Backpack(
   26,
   false,
   "December 5, 2018 15:00:00 PST",
-  "../assets/images/everyday.svg"
+  "images/everyday.svg"
 );
 
 const content = `
@@ -48,11 +55,26 @@ const content = `
   
 `;
 
+const navContent = ` 
+      <li><a class="active" href="#Home" > Home </a></li>
+      <li><a href="#Blog"> Blog </a></li>
+      <li><a href="#Account"> Account </a></li>
+      <li><a href="#About"> About </a></li>
+      <li><a href="#Contact"> Contact </a></li>
+`;
+
 const main = document.querySelector(".maincontent");
+const header = document.querySelector(".siteheader");
 
 const newArticle = document.createElement("article");
 newArticle.classList.add("backpack");
 newArticle.setAttribute("id", "everyday");
 newArticle.innerHTML = content; // inserting the content within the html element
 
+const newUl = document.createElement("ul");
+newUl.classList.add("navList");
+newUl.setAttribute("id", "navId");
+newUl.innerHTML = navContent;
+
+header.prepend(newUl);
 main.append(newArticle);
