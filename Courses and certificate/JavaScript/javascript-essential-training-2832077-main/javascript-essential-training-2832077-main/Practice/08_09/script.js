@@ -32,28 +32,60 @@ const frogpack = {
     this.strapLength.right = lengthRight;
   },
 };
-
+const laptop = {
+  manufacturer: "HP",
+  model: "HP 14s",
+  bios: "f.21",
+  color: "Grey",
+  processor: "I5-1135G7",
+  memory: {
+    rom: "500gb",
+    ram: "16gb",
+  },
+  display: "Intel Iris",
+  image: "images/HP-14s-feat.png",
+  description: "A grey modern HP notebook, that is quite portable.",
+  upgradedMemory: (ram, rom) => {
+    this.memory.ram = ram;
+    this.memory.rom = rom;
+  },
+};
 // Baseline HTML output
 const content = `
-    <h1 class="backpack__name">${frogpack.name}</h1>
-    <ul class="backpack__features">
-      <li class="packprop backpack__volume">Volume:<span> ${
-        frogpack.volume
-      }l</span></li>
-      <li class="packprop backpack__color">Color:<span> ${
-        frogpack.color
-      }</span></li>
-      <li class="packprop backpack__pockets">Number of pockets:<span> ${
-        frogpack.pocketNum
-      }</span></li>
-      <li class="packprop backpack__strap">Left strap length:<span> ${
-        frogpack.strapLength.left
-      } inches</span></li>
-      <li class="packprop backpack__strap">Right strap length:<span> ${
-        frogpack.strapLength.right
-      } inches</span></li>
-      <li class="feature backpack__lid">Lid status:<span> ${
-        frogpack.lidOpen ? "open" : "closed"
-      }</span></li>
+    <h1 class="laptop__model">${laptop.model}</h1>
+    <ul class="laptop__features">
+      <li class="laptop laptop__bios">BIOS:<span> ${laptop.bios}l</span></li>
+      <li class="laptop laptop__color">Color:<span> ${laptop.color}</span></li>
+      <li class="laptop laptop__processor">Processor:<span> ${laptop.processor}</span></li>
+      <li class="laptop memory__rom">Memory ROM:<span> ${laptop.memory.rom}</span></li>
+      <li class="laptop memory__ram">Memory RAM:<span> ${laptop.memory.ram}</span></li>
+      <li class="laptop laptop__manufacturer">Manufacturer:<span> ${laptop.manufacturer}</span></li>
     </ul>  
 `;
+
+// Images function
+const imageFunct = function (object) {
+  let newFig = document.createElement("figure");
+  let newImg = document.createElement("img");
+  // adding attributes to the element
+  newImg.setAttribute("src", object.image);
+  newImg.setAttribute("alt", "HP laptop");
+  newImg.style.display = "block";
+  // creating a figcaption element and assign to the object's description
+  let newDescription = document.createElement("figcaption");
+  newDescription.innerHTML = object.description;
+  // appending the img and figcaption the figure element and return the figure
+  newFig.append(newImg, newDescription);
+  return newFig;
+};
+
+// Main function. hence the content use the laptop data, we should the laptop object as a parameter
+const mainFunct = (laptop) => {
+  let newArticle = document.createElement("article");
+  newArticle.innerHTML = content;
+  newArticle.prepend(imageFunct(laptop));
+  return newArticle;
+};
+
+const mainHTML = document.querySelector("main");
+mainHTML.append(mainFunct(laptop));
