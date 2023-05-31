@@ -13,25 +13,25 @@
  *  - Returns <figure> element to where function is called
  */
 
-const frogpack = {
-  name: "Frog Backpack",
-  volume: 8,
-  color: "green",
-  pocketNum: 3,
-  strapLength: {
-    left: 10,
-    right: 10,
-  },
-  lidOpen: false,
-  image: "../../assets/images/frog.svg",
-  toggleLid: function (lidStatus) {
-    this.lidOpen = lidStatus;
-  },
-  newStrapLength: function (lengthLeft, lengthRight) {
-    this.strapLength.left = lengthLeft;
-    this.strapLength.right = lengthRight;
-  },
-};
+// const frogpack = {
+//   name: "Frog Backpack",
+//   volume: 8,
+//   color: "green",
+//   pocketNum: 3,
+//   strapLength: {
+//     left: 10,
+//     right: 10,
+//   },
+//   lidOpen: false,
+//   image: "../../assets/images/frog.svg",
+//   toggleLid: function (lidStatus) {
+//     this.lidOpen = lidStatus;
+//   },
+//   newStrapLength: function (lengthLeft, lengthRight) {
+//     this.strapLength.left = lengthLeft;
+//     this.strapLength.right = lengthRight;
+//   },
+// };
 const laptop = {
   manufacturer: "HP",
   model: "HP 14s",
