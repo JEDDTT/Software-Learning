@@ -4,8 +4,17 @@
  * - Give the article the ID of the current backpack object.
  * - Set the inner HTML of the article to the existing HTML output provided in const content.
  * - Append each backpack object to the <main> element.
+ *
+ * Break down of the chaleenge
+ * -Map through the data array to output an HTML article for each object
+ * -Append each article to the main element
  */
 import Backpack from "./components/Backpack.js";
+//import data from "./components/data.js";
+
+// const objEveryDayPack = data[0];
+// const objFrogPack = data[1];
+// console.log(objEveryDayPack, objFrogPack);
 
 const everydayPack = new Backpack(
   "pack01",

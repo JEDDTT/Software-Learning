@@ -50,6 +50,6 @@ const tipCalculator = (sum, percentage, locale, currency, printHTML) => {
   };
 
   printHTML(finalTip);
-};
+}; // finaltip and print variable function are executed under tipCalculator
 
 tipCalculator(29.95, 18, "de-DE", "EUR", printHTML);
