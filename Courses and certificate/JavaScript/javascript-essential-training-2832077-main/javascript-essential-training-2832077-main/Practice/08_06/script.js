@@ -10,7 +10,7 @@
  * - create basic function expression and repeat the previous steps of creating a basic function
  * - Create an arrow function
  */
-
+// Creating an object person
 const person = {
   name: "Emmanuel",
   Age: 28,
@@ -18,6 +18,7 @@ const person = {
   weigth: "98 kg",
   heigth: "1m90",
 };
+//Creating a second object
 const person2 = {
   name: "Daniel",
   Age: 25,
@@ -25,6 +26,7 @@ const person2 = {
   weigth: "100 kg",
   heigth: "1m88",
 };
+// Creating a function declaration
 function addperson(person) {
   const content = document.createElement("article");
   content.setAttribute("class", "articlePers");
@@ -39,6 +41,7 @@ function addperson(person) {
     `;
   return content;
 }
+// Creating a variable and assigning a function declaration
 const addperson2 = function (person2) {
   const content = document.createElement("article");
   content.setAttribute("class", "articlePers2");
@@ -53,7 +56,7 @@ const addperson2 = function (person2) {
       `;
   return content;
 };
-
+// creating a function expression
 const addMessage = (message) => {
   const content = document.createElement("article");
   content.setAttribute("class", "articlePers2");
