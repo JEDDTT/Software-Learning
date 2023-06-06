@@ -1,0 +1,559 @@
+Course Title: JavaScript Essential Training
+
+Description: View Morten's LinkedIn NewsletterJavaScript is a scripting language of the web. As the web evolves from a static to a dynamic environment, technology focus is shifting from static markup and styling—frequently handled by content management systems or automated scripts—to dynamic interfaces and advanced interaction. Once seen as optional, JavaScript is now becoming an integral part of the web, infusing every layer with its script.Through practical examples and mini-projects, this course helps you build your understanding of JavaScript piece by piece, from core principles like variables, data types, conditionals, and functions through advanced topics including loops, and DOM scripting. Along the way, instructor Morten Rand-Hendriksen provides challenges that allow you to put your new skills to the test.
+
+
+***********************************************
+Chapter: 1. JavaScript: A Brief Introduction
+***********************************************
+
+
+-----------------------------------------------
+Video: JavaScript: First contact
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:01:58            JSX is a syntax extension of JavaScript created for the react JavaScript Framework. 
+
+
+-----------------------------------------------
+Video: Navigating the JS landscape
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:02:26            Guide to navigate javascript landscape: javascript is often called vanilla JS, ECMAScript(The browser specification of the JavaScript language), Using ECMAScript usually means also using Babel.js to make it work in current browser implementations, 
+
+0:02:54            React, Vue, Angular: Javascript frameworks allowing us to write JavaScript-based front-end applications. 
+
+0:02:55            TypeScript is an abstract version of Javascript (dialect of javascript) with additional feature added such as strong typing. 
+
+0:03:38            npm, WebPack, Gulp: Build tools and infrastructure to automate the process of optimizing human-readable JavaScript for the best browser performance. 
+
+0:03:56            Node.js: Javascript server runtime used to run JavaSCript everywhere; used to run npm, WebPack, Babel, and more on your computer. 
+
+
+-----------------------------------------------
+Video: Get to know the browser console
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:05            Prettier extension on Visual Code helps automatically clean up your formatting
+ESLint helps automatically detect coding errors and can do basic cleanup automatically. 
+
+
+-----------------------------------------------
+Video: JavaScript language basics
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:23            Define all variables, functions and objects in the top before you use them. 
+
+0:00:29            /* Multi Line comment */ 
+// Single Line comment 
+
+0:04:38            Adding a semi colon at the end of a syntax is optional in JavaScript. 
+
+0:05:09            Some developers like to use double quote or prefer single quote. 
+
+
+***********************************************
+Chapter: 2. Up and Running with JS
+***********************************************
+
+
+-----------------------------------------------
+Video: JavaScript in an HTML document
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:02:49            An inline javascript code is placed at the bottom of the HTML code, because when the browser reads the HTML file, and when it encounters a javascript syntax, everything stops, it stops all rendering that's because the JavaScript may make changes to the document. That is why it is put at the end because hence javascript makes changes at document rendered so everything has to be rendered first. 
+
+
+-----------------------------------------------
+Video: Modern JavaScript loading
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:01:42            We have tools that control when Javascript should be loaded, which are async and defer. 
+
+0:01:56            Default behavior: Browser stops rendering when JavaScript is encountered. JavaScript is executed before rendering continues. Often referred to as content blocking. 
+
+0:02:22            async: Browser downloads JavaScript in parallel while HTML renders. When JavaScript is fully loaded, rendering stops while JavaScript is executed. 
+
+0:02:56            defer: Browser downloads JavaScript in parallel while HTML renders, then defers execution of JavaScript until HTML rendering is complete. 
+
+
+-----------------------------------------------
+Video: JavaScript modules
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:35            JavaScript modules allow us to break pieces out of javaScript file and place them in a separate file and then import them back into the original file again. 
+
+
+***********************************************
+Chapter: 3. Objects
+***********************************************
+
+
+-----------------------------------------------
+Video: Objects: A practical introduction
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:22            JavaScript is a prototype-based object-oriented programming language, that means with javaScript we are working with objects that are based on prototypes. 
+
+0:03:27            Methods: property-changing features inside objects. 
+
+
+-----------------------------------------------
+Video: JavaScript objects: The code version
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:18            JavaScript objects are collections of data and functionality stored as properties and methods that describe the object and what it can do. 
+
+
+-----------------------------------------------
+Video: Object containers
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:08            example of an obejct: const backpack = {}; // check movie 03_02 
+
+
+-----------------------------------------------
+Video: Object properties
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:15            Object properties define different aspects of the object, object properties are defined by using a colon-separated name-value pair, where the name can be any string placed on the left and the value can be data type placed on the right. 
+
+
+-----------------------------------------------
+Video: Accessing object properties
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:03:57            There are two ways of accessing an object's properties, we have dot notation and square bracket notation.
+dot notation: object.propertiesname.
+bracket notation: object["propertiesname"]. 
+
+
+-----------------------------------------------
+Video: Object methods
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:12            When a function is inside an object is called a method. 
+
+0:01:24            A parameter is a piece of data that is passed to a function. 
+
+0:02:05            const name: function (parameter) { expression} => a basic declaration of a function in javaScript. //Within an object 
+
+
+-----------------------------------------------
+Video: Classes: Object blueprints
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:02:14            Classes work as templates for an object type. 
+
+0:02:35            to create a class we start with class keyword and a capitalized name to ensure that we are dealing with class and not an object.
+Class declaration: class Name {}.
+Class expression: const Name = class {}. 
+
+0:03:40            Inside the class we use the constructor method to define the parameters for each property inside the parentheses, then inside the curly bracket, we define all the properties and set their values to the parameters that have been passed in from the class. 
+
+
+-----------------------------------------------
+Video: Object constructors
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:04            Classes are the prefered tool to create a template object. 
+
+0:00:24            Another way to create a template object, it is called an object constructor function, see an example in 03_11. 
+
+
+-----------------------------------------------
+Video: Global objects
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:02:07            object constructor function:
+function car ( brand, color) {
+this.brand = brand;
+this.color = color;
+changeBrand = function (newBrand) {
+this.brand = newBrand;
+}
+}
+usually written in the main scrip not on a different file. 
+
+0:02:07            class: class car {
+constructor(brand, color) {
+this.brand = brand:
+this.color = color;}
+changeColor(newColor) {
+this.color = newColor;
+}
+}
+export default car; 
+
+0:02:07            object: const objectname = {
+name: manu,
+color: Black,
+age: 28,
+hair: {
+color: "black",
+type: "straight",
+}
+changeAge: function (newAge) { this.Age = newAge}
+} 
+
+
+***********************************************
+Chapter: 4. Sidebar: String Output
+***********************************************
+
+
+-----------------------------------------------
+Video: Mix text and variables with template literals
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:46            We can use JavaScript to edit HTML and CSS. 
+
+0:04:18            The back ticks `` tell the browser that anything inside here is a template literal meaning we can mix HTML and strings with JavaScript expressions to literally create templates. 
+
+
+-----------------------------------------------
+Video: Traditional string output
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:02            Inside the template literal anytime you want to call in something generated by JavaScript, we add a placeholder (${}). 
+
+0:02:50            template literal is preferable. 
+
+0:02:53            When dealing with traditional string output and not template literal, we must string concatenation, for example:
+const content = "<h1>" + everydayPack.name + "</h1>"; 
+
+
+***********************************************
+Chapter: 5. DOM
+***********************************************
+
+
+-----------------------------------------------
+Video: Access elements with querySelector methods
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:01:05            Anytime you want to do something in the DOM, you need to find the element that you want to work with, to do so we have two methods: Document.querySelector() and Document.querySelectorAll(). 
+
+0:01:34            The querySelector or querySelectorAll methods they all take both a CSS query as their parameter and it is put inside a quotation mark. 
+
+
+-----------------------------------------------
+Video: Access elements using older methods
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:01:44            Element.getElementsByClassName() and getElementByID() are methods used to access elements in the DOM. PS: They are older methods to access elements. 
+
+
+-----------------------------------------------
+Video: Modifying element classes
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:43            Element.className: Class name holds a string, listing out all the classes appended to an element. 
+
+0:02:47            It is better to use the c;lass list property instead. Element.classList 
+
+0:04:33            The Element.classList has the add, remove, toggle, and replace methods to modify the element classes. 
+
+
+-----------------------------------------------
+Video: Attributes
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:29            Element.Attributes return a list of attributes within that specific elements. 
+
+0:02:52            Element.Attributes has method such as element,hasAttribute,  element,getAttribute and element,setAttribute("attribute", "NewValue"). 
+
+0:03:41            And element.removeAttribute('title"); 
+
+
+-----------------------------------------------
+Video: Add DOM elements
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:01:30            document.createElement() method creates the HTML element specified by tagName or an HTMLUnknownElement if tagName is not recognized. 
+
+0:04:24            const newArticle = document.createElement("article")= This will create a new article on the DOM
+newArticle.classList.add("backpack") // This code add a class called backpack to the created article element
+newArticle.setAttribute("id", "everyday") // This code add an id attribute to the element and set the value to everyday.
+
+To place the template literal content inside this element (article) we must code this way below:
+newArticle.innerHTML = content;  // content is the template literal (05_09)
+
+In order to append the newArticle to the HTML DOM as a last child without erasing any existing HTML code 
+we use the append() method. This method takes the parent node and then append whatever we want to the end of that target element as the last child.
+
+main.append(newArticle); // It will add the newArticle content within the main element in HTML as a last child.
+
+To add an element as the first child of the parent, you can use the prepend() method, it has the same function as the append method, it differs by adding the content as the first child within that element. 
+
+0:05:25            If you need to move an element from one location to another inside the DOM, or you need the browser to return the appended object to be further worked with, you can also use the appendChild method. The only difference is it also returns this element to you.
+
+Othe method to check out: replaceChild() // Which replaces a child element of a parent
+insertBefore() which allows us to insert an element before the parent elements.
+insertAdjacentElement()  allows us of adding new elements at a given position relative to the element it is invoked upon. 
+
+
+***********************************************
+Chapter: 6. Sidebar: Variables and Data Types
+***********************************************
+
+
+-----------------------------------------------
+Video: Variables: Containers for everything
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:01:39            Variable are container to hold objects, arrays, numbesr, strings, 
+
+0:01:40            Variable is a container with some piece of data. 
+
+
+-----------------------------------------------
+Video: Scope
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:00            var is the classic variable in JS, var is mutable which means it can be reassigned with another value, 
+
+0:00:32            var is a globally-scoped variable, which means it is accessible within and outside a function scope. 
+
+
+-----------------------------------------------
+Video: Let
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:11            let keyword defines a block-scoped local variable, it is defined within its currently-enclosed block. 
+
+
+-----------------------------------------------
+Video: Const
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:02:22            const variable is not mutable, it can not be changed. 
+
+
+-----------------------------------------------
+Video: Math operators
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:02:55            ** used for exponation         
+
+
+***********************************************
+Chapter: 7. Arrays
+***********************************************
+
+
+-----------------------------------------------
+Video: Arrays in code
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:09            const collection = ["Pigy", item, 5, true]; // example of an array. 
+
+
+-----------------------------------------------
+Video: Array methods
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:01:55            array.join(", ") method is used to return items of an array as a list of string separated by the parameters entered in the method. 
+
+0:03:45            array.push("pencil ", 5) method is used to add new item to the end of the array, the parameters are used as new items to be added in the array. 
+
+array.unshift("book") method is used to add new item to the beginning of the array, the parameters are used as new items to be added in the array.
+
+array.shift() method takes out the first item within the array.
+
+array.pop() method is used to take out the last item within the array. 
+
+0:04:22            array,forEach(); loop will grab each item.
+
+array.forEach(function (item) {
+item = `<li> $(item)</li>`;
+console.log(item):
+}); // it adds li element to each items. 
+
+0:04:52            The forEach loop mehtod gives the ability of manipulating the contents within the array and doing something with the content without touching the array itself. 
+
+0:05:33            array.find() method is used to return a specific item. 
+
+
+***********************************************
+Chapter: 8. Functions and Methods
+***********************************************
+
+
+-----------------------------------------------
+Video: The real-world function
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:01:52            Function: An algorithm turned into code of a list of steps. 
+
+
+-----------------------------------------------
+Video: Functions and methods
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:02:07            Function declarations are parsed in the order they appear in the code. 
+
+0:02:35            function expression example : const doMoreMath = function (a, b) {... some code}; 
+
+0:03:04            Function expression has become the preferred way of declaring functions in JavaScript frameworks like react. 
+
+0:03:19            The function expression is sitting inside a variable and it will have the same scope as the variable itself. 
+
+0:03:40            Function expressions are not hoisted, they exist only in the scope they were created. 
+
+0:05:35            IIFE= Immediately invoked function expression (IIFE), ex:  (function() {}) (). 
+
+
+-----------------------------------------------
+Video: The arrow function
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:10            Arrow functions are shorter way writing function expressions. 
+
+0:03:14            you can't arrow function when declaring methods in an object. 
+
+
+-----------------------------------------------
+Video: Arrow functions and "this"
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:02:26            The function declaration is always hoisted to the global scope. function () {}; 
+
+0:03:35            We can not use an arrow function as a declaration for a method, because if we do that, The arrow function wouldn't know what scope to use. 
+
+0:03:42            Always use the function declaration when creating a method, always use the arrow function when creating a function inside a method. 
+
+
+-----------------------------------------------
+Video: Return values from a function
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:02:30            intl.NumberFormat object is a constructor for objects that enable language sensitive number formatting. 
+
+
+-----------------------------------------------
+Video: Callbacks
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:04:21            If we have a function and we call it using the parentheses, then we are executing the function. But if we are calling a function expression without adding those parameters, we're actually calling the entire function. 
+
+
+-----------------------------------------------
+Video: Conditional if...else statement
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:03:50            if () {} else {} => example of a basic if statement. 
+
+0:05:08            Ternary operator: a short version of an if statement.
+ex: console.log(everydayPack.lidOpen ? "open" : "close"). 
+
+
+-----------------------------------------------
+Video: Logical operators
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:02:54            &&: AND 
+||: OR                
+
+
+-----------------------------------------------
+Video: Looping through content
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:02            The difference between using a forEach method and a for of method  is, in thefor each method we are actively working on the item itself in functional programming. 
+
+0:03:39            switch() {
+case age < 30: description = "new"
+break: // we stop the switch statement to continue to run
+case age >= 30 && age < 365: description = "lightly used"
+break:
+break;
+case age >= 1095: 
+description = "old"
+break;
+default:
+console.log(` there is no description for ${age}. `); // example of switch
+case age >= 365 && age < 1095: description=  "used" 
+
+0:04:15            for in method works exactly the same as the for of method except that it is used for objects. 
+
+
+-----------------------------------------------
+Video: Using the map() array method
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:17            map() method takes an existing array then does something to each of the items in the array and returns each of those items into a new array, 
+
+0:00:31            The map() method takes an existing array then does something to each of then items in the array and returns each of those items into a new array. in contrast, the forEach array method loops through the array but does not create anything unless we explicit tell it to, and nothing is ever returned into something else. 
+
+0:03:51            In many cases it is a best practice to create new variable to contain a complex array rather than working on the original array. 
+
+0:04:22            map() method is specifically used to create a new array to do something further with the data. 
+
+0:04:49            If just want to iterate through an array and output the content right away, you should use a forEach loop. 
+
+
+***********************************************
+Chapter: 9. Events
+***********************************************
+
+
+-----------------------------------------------
+Video: Typical DOM events
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:01:33            Event Listener is used to execute instructions to different events. 
+
+0:05:15            event listener can be appended to any element inside the window and inside the DOM. 
+
+
+-----------------------------------------------
+Video: Event listeners
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:09            addEventListener() method listen for a specific event and then calls back a function when that event is detected. 
+
+0:01:04            target.addEventListener (target, callback [, options]); 
+
