@@ -1,0 +1,176 @@
+Course Title: Learning Python
+
+Description: Python—the popular and highly-readable object-oriented language—is both powerful and relatively easy to learn. Whether you're new to programming or an experienced developer, this course can help you get started with Python. Joe Marini provides an overview of the installation process, basic Python syntax, and an example of how to construct and run a simple Python program. Learn to work with dates and times, read and write files, and retrieve and parse HTML, JSON, and XML data from the web.
+
+
+***********************************************
+Chapter: 1. Getting Started
+***********************************************
+
+
+-----------------------------------------------
+Video: Installing Python on Windows
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:46            To verify if python it is installed we can use this statement in the terminal py --version. 
+
+
+-----------------------------------------------
+Video: Installing Python on Mac
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:01:45            On a mac you can verify the version by typing python3 --version. 
+
+
+***********************************************
+Chapter: 2. Python Basics
+***********************************************
+
+
+-----------------------------------------------
+Video: Building Hello World
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:01:26            Python is an interpreted language, the application does not need to be compiled and then built into an executable before you can run it. The python interpreter takes each line of code as it comes across it, and then interprets and executes the code. 
+
+0:01:48            print() method is used to output codes to the the screen. 
+
+0:02:11            input() method is used to input data from the user. 
+
+0:03:21            exit() function is used to exit the python program. 
+
+0:06:59            Indentation in python is used as a block of code. 
+
+
+-----------------------------------------------
+Video: Variables and expressions
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:36            sequence variable type: list, tuple(immutable) and mydict(which maps unique to a specific values). 
+
+0:05:50            In dictionary variable the keys have to be unique values, but the values don't have to be unique. 
+
+0:07:40            str() function is used to convert variable into string. 
+
+0:10:25            Global keyword with the name of a variable indicates to Python that the variable exists in the global namespace and is declared somewhere else. 
+
+0:11:01            del keyword deletes the definition of a variable that was previously declared. 
+
+
+-----------------------------------------------
+Video: Python functions
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:10:15            To pass a variable number of arguments or parameters to a function, we use *args. 
+
+
+-----------------------------------------------
+Video: Conditional structures
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:06:40            The vertical bar | is used as an or operator in Python. 
+
+
+-----------------------------------------------
+Video: Loops
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:05:35            The break statement is used to break the execution of a loop if a condition is met or for some other reason. 
+
+0:07:04            Continue statement in the loop means skip the rest of the code and go to the next iteration. 
+
+0:08:51            enumerate() function will iterate over the collection, just like the for loop normally would do but in addition to returning the value of the item that is being looped at, it also returns a value that is the index of the item in question. 
+
+
+-----------------------------------------------
+Video: Classes
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:01:19            __init__ method is the function that Python calls when the object has been created and it is time to initialize the object's data. 
+
+
+-----------------------------------------------
+Video: Using exceptions
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:01:22            try:
+  code
+except:
+  print("well that didn't work!").
+
+using exception. 
+
+
+***********************************************
+Chapter: 3. Working with Files
+***********************************************
+
+
+-----------------------------------------------
+Video: Reading and writing files
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:01:26            open() function takes the first argument as the name of the file, the second argument is the open mode . 
+
+0:05:02            When you read a file you don't need to close it. 
+
+
+***********************************************
+Chapter: 4. Using Dates and Times
+***********************************************
+
+
+-----------------------------------------------
+Video: Using timedelta objects
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:01:00            A timedelta is basically a span of time. It is an amount of time. You can use timedelta to perform time-based math. 
+
+
+-----------------------------------------------
+Video: Working with calendars
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:01:19            The formatmonth() method helps to format a particular month into a text string. 
+
+0:03:17            ittermonthdays method is used to itterrate days within a month. 
+
+
+***********************************************
+Chapter: 5. Internet Data Formats
+***********************************************
+
+
+-----------------------------------------------
+Video: Fetching Internet data
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:01:08            urlopen() function takes a string of an URL that we want to request. 
+
+0:01:55            getcode() return 200 if everything is fine and 404 if not the web site is not found. 
+
+0:02:32            read() is used to read the requested content from the website. 
+
+
+-----------------------------------------------
+Video: Working with JSON data
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:14            Jason stands for the javaScript Object Notation. 
+
+0:04:20            the json.loads() function takes a string of JSON and parses it into a native Python Object. 
+
