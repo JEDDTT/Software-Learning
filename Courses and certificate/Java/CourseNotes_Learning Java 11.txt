@@ -1,0 +1,132 @@
+Course Title: Learning Java 11
+
+Description: Java is one of the top five programming languages, and is used for websites, embedded controllers, and Android app development. Interested in learning how to code with Java? Join instructor Kathryn Hodge as she helps you get up and running with this popular language. Kathryn covers all the basics: Data types, strings, functions, and loops. She helps you control the flow and logic of your code, and debug your project to make sure it runs perfectly. Along the way, she provides real-world examples and introduces challenges that allow you to practice your new skills. This course is perfect for developers who need to get up to speed with Java fast, as well as for beginning programmers who want their first taste of this popular language.
+
+
+***********************************************
+Chapter: 1. Getting Started with Java
+***********************************************
+
+
+-----------------------------------------------
+Video: What is Java?
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:40            Java is an actual language, With Java language, we can create Web Applications, Mobile applications, desktop applications, web servers and embedded systems. 
+
+
+-----------------------------------------------
+Video: Exploring the command line
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:29            Command line acts as a user interface that we can use to interact with the computer. 
+
+
+-----------------------------------------------
+Video: Hello World in the command line
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:01:41            javac command is used to compile the java file from the command line and java nameOfTheFile is used to execute the file. 
+
+
+-----------------------------------------------
+Video: Exploring an integrated development environment (IDE)
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:03            An IDE(Integrated Development Environment) is a software we can use to build and run Java programs. 
+
+
+***********************************************
+Chapter: 2. Building Strong Foundations
+***********************************************
+
+
+-----------------------------------------------
+Video: Primitive data types
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:06            Data is information that is stored and processed by a computer. 
+
+0:02:39            Primitive types are the foundation for all other data types within the java programming language. 
+
+
+-----------------------------------------------
+Video: Using indexes with strings
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:01:13            charAt is used to access a specific character within a string. it takes one input and output the value of the inputted index. 
+
+
+***********************************************
+Chapter: 3. Control Flow
+***********************************************
+
+
+-----------------------------------------------
+Video: Mapping out program control flow
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:30            A program's control flow is the order in which the program's instructions or code statements are executed. 
+
+0:01:10            We can manipulate which line of code is executed with special control flow statements and conditions. 
+
+0:03:22            Decision blocks or control flow statements make a decision about code statements to run on each execution of our program. 
+
+
+-----------------------------------------------
+Video: Understanding scope in Java
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:16            The scope of a variable is the part of the program where a piece of code os accessible or in which it can be used. 
+
+
+***********************************************
+Chapter: 4. Debugging in Java
+***********************************************
+
+
+-----------------------------------------------
+Video: Debugging with an IDE
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:51            A breakpoint is an intentional stopping point put into a program for debugging purposes.
+With a breakpoint, we can temporarily halt a program in order to inspect its internal state. 
+
+0:00:51            Debugging involves locating and fixing a program's errors. 
+
+
+***********************************************
+Chapter: 6. Classes in Java
+***********************************************
+
+
+-----------------------------------------------
+Video: Classes in Java
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:01:32            A class is a user-defined blueprint that has a set of attributes and behaviors that define the item that it is supposed to represent. 
+
+
+-----------------------------------------------
+Video: Constructors in Java
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:36            An instance is an object created from a class blueprint. 
+
+0:01:35            A constructor is a special method or behavior inside every class that creates and initializes instances. 
+
+0:02:24            A constructor always returns an instance of the class it's in(that is, a constructor in the triangle class returns a triangle) 
+
+0:04:01            The this keyword helps our program make a distinction between the attribute(or properties) variable and the parameter variable. 
+
