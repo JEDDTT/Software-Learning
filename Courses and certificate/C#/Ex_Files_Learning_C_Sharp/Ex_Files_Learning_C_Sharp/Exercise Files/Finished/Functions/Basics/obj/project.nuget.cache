@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "oPI7ehlGIUyd7DbwlvOv/A/5gWUoM9/IpZwhUzppEDWPZeUIgNZYJ69f/KNLNk5VSgXA2fQ9pkB5+9mepSQSjw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\emman\\Desktop\\Software Learning\\Courses and certificate\\C#\\Ex_Files_Learning_C_Sharp\\Ex_Files_Learning_C_Sharp\\Exercise Files\\Finished\\Functions\\Basics\\Basics.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\emman\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\emman\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\emman\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\emman\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+  ],
+  "logs": []
+}

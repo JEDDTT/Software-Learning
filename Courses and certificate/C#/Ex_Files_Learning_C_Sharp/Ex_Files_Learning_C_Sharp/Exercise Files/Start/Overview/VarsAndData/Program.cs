@@ -21,18 +21,26 @@ namespace VarsAndData
             var z = "Hello!";
 
             // TODO: Declare an array of values
-
+            int[] ints = new int[5];
+            String[] strs = { "one", "two", "three" };
 
             // TODO: Print the values using a Formatting String
-
+            Console.WriteLine("{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}", i, c, b, str, f, d, x, z);
 
             // TODO: "null" means "no value"
-
+            object obj = null;
+            Console.WriteLine(obj);
 
             // TODO: Implicit conversion between types
-
+            long bignum = i;
+            Console.WriteLine(bignum);
 
             // TODO: Explicit conversions
+            float i_to_f = (float)i;
+            Console.WriteLine(i_to_f);
+
+            int f_to_i = (int)f;
+            Console.WriteLine(f_to_i);
 
         }
     }

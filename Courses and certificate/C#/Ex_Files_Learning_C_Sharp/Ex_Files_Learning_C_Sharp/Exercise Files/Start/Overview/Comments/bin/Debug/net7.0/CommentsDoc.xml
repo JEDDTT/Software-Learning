@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Comments</name>
+    </assembly>
+    <members>
+        <member name="M:Comments.Program.Main(System.String[])">
+            XML Comments are used to help provide documentation
+            They start with triple-slashes and have a special syntax
+            <summary>
+            This application focuses on learning how to comment in c sharp
+            </summary>
+            <return> no return </return>
+            <param name='args'> an array of string as a parameter </param>
+        </member>
+    </members>
+</doc>

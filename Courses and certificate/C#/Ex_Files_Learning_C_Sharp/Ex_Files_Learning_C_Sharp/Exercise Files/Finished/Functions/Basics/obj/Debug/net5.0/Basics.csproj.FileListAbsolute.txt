@@ -1,0 +1,16 @@
+C:\Users\emman\Desktop\Software Learning\Courses and certificate\C#\Ex_Files_Learning_C_Sharp\Ex_Files_Learning_C_Sharp\Exercise Files\Finished\Functions\Basics\bin\Debug\net5.0\Basics.exe
+C:\Users\emman\Desktop\Software Learning\Courses and certificate\C#\Ex_Files_Learning_C_Sharp\Ex_Files_Learning_C_Sharp\Exercise Files\Finished\Functions\Basics\bin\Debug\net5.0\Basics.deps.json
+C:\Users\emman\Desktop\Software Learning\Courses and certificate\C#\Ex_Files_Learning_C_Sharp\Ex_Files_Learning_C_Sharp\Exercise Files\Finished\Functions\Basics\bin\Debug\net5.0\Basics.runtimeconfig.json
+C:\Users\emman\Desktop\Software Learning\Courses and certificate\C#\Ex_Files_Learning_C_Sharp\Ex_Files_Learning_C_Sharp\Exercise Files\Finished\Functions\Basics\bin\Debug\net5.0\Basics.runtimeconfig.dev.json
+C:\Users\emman\Desktop\Software Learning\Courses and certificate\C#\Ex_Files_Learning_C_Sharp\Ex_Files_Learning_C_Sharp\Exercise Files\Finished\Functions\Basics\bin\Debug\net5.0\Basics.dll
+C:\Users\emman\Desktop\Software Learning\Courses and certificate\C#\Ex_Files_Learning_C_Sharp\Ex_Files_Learning_C_Sharp\Exercise Files\Finished\Functions\Basics\bin\Debug\net5.0\Basics.pdb
+C:\Users\emman\Desktop\Software Learning\Courses and certificate\C#\Ex_Files_Learning_C_Sharp\Ex_Files_Learning_C_Sharp\Exercise Files\Finished\Functions\Basics\obj\Debug\net5.0\Basics.csproj.AssemblyReference.cache
+C:\Users\emman\Desktop\Software Learning\Courses and certificate\C#\Ex_Files_Learning_C_Sharp\Ex_Files_Learning_C_Sharp\Exercise Files\Finished\Functions\Basics\obj\Debug\net5.0\Basics.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emman\Desktop\Software Learning\Courses and certificate\C#\Ex_Files_Learning_C_Sharp\Ex_Files_Learning_C_Sharp\Exercise Files\Finished\Functions\Basics\obj\Debug\net5.0\Basics.AssemblyInfoInputs.cache
+C:\Users\emman\Desktop\Software Learning\Courses and certificate\C#\Ex_Files_Learning_C_Sharp\Ex_Files_Learning_C_Sharp\Exercise Files\Finished\Functions\Basics\obj\Debug\net5.0\Basics.AssemblyInfo.cs
+C:\Users\emman\Desktop\Software Learning\Courses and certificate\C#\Ex_Files_Learning_C_Sharp\Ex_Files_Learning_C_Sharp\Exercise Files\Finished\Functions\Basics\obj\Debug\net5.0\Basics.csproj.CoreCompileInputs.cache
+C:\Users\emman\Desktop\Software Learning\Courses and certificate\C#\Ex_Files_Learning_C_Sharp\Ex_Files_Learning_C_Sharp\Exercise Files\Finished\Functions\Basics\obj\Debug\net5.0\Basics.dll
+C:\Users\emman\Desktop\Software Learning\Courses and certificate\C#\Ex_Files_Learning_C_Sharp\Ex_Files_Learning_C_Sharp\Exercise Files\Finished\Functions\Basics\obj\Debug\net5.0\refint\Basics.dll
+C:\Users\emman\Desktop\Software Learning\Courses and certificate\C#\Ex_Files_Learning_C_Sharp\Ex_Files_Learning_C_Sharp\Exercise Files\Finished\Functions\Basics\obj\Debug\net5.0\Basics.pdb
+C:\Users\emman\Desktop\Software Learning\Courses and certificate\C#\Ex_Files_Learning_C_Sharp\Ex_Files_Learning_C_Sharp\Exercise Files\Finished\Functions\Basics\obj\Debug\net5.0\Basics.genruntimeconfig.cache
+C:\Users\emman\Desktop\Software Learning\Courses and certificate\C#\Ex_Files_Learning_C_Sharp\Ex_Files_Learning_C_Sharp\Exercise Files\Finished\Functions\Basics\obj\Debug\net5.0\ref\Basics.dll

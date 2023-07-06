@@ -1,0 +1,15 @@
+C:\Users\emman\Desktop\Software Learning\Courses and certificate\C#\Ex_Files_Learning_C_Sharp\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Overview\VarsAndData\bin\Debug\net7.0\VarsAndData.exe
+C:\Users\emman\Desktop\Software Learning\Courses and certificate\C#\Ex_Files_Learning_C_Sharp\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Overview\VarsAndData\bin\Debug\net7.0\VarsAndData.deps.json
+C:\Users\emman\Desktop\Software Learning\Courses and certificate\C#\Ex_Files_Learning_C_Sharp\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Overview\VarsAndData\bin\Debug\net7.0\VarsAndData.runtimeconfig.json
+C:\Users\emman\Desktop\Software Learning\Courses and certificate\C#\Ex_Files_Learning_C_Sharp\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Overview\VarsAndData\bin\Debug\net7.0\VarsAndData.dll
+C:\Users\emman\Desktop\Software Learning\Courses and certificate\C#\Ex_Files_Learning_C_Sharp\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Overview\VarsAndData\bin\Debug\net7.0\VarsAndData.pdb
+C:\Users\emman\Desktop\Software Learning\Courses and certificate\C#\Ex_Files_Learning_C_Sharp\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Overview\VarsAndData\obj\Debug\net7.0\VarsAndData.csproj.AssemblyReference.cache
+C:\Users\emman\Desktop\Software Learning\Courses and certificate\C#\Ex_Files_Learning_C_Sharp\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Overview\VarsAndData\obj\Debug\net7.0\VarsAndData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emman\Desktop\Software Learning\Courses and certificate\C#\Ex_Files_Learning_C_Sharp\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Overview\VarsAndData\obj\Debug\net7.0\VarsAndData.AssemblyInfoInputs.cache
+C:\Users\emman\Desktop\Software Learning\Courses and certificate\C#\Ex_Files_Learning_C_Sharp\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Overview\VarsAndData\obj\Debug\net7.0\VarsAndData.AssemblyInfo.cs
+C:\Users\emman\Desktop\Software Learning\Courses and certificate\C#\Ex_Files_Learning_C_Sharp\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Overview\VarsAndData\obj\Debug\net7.0\VarsAndData.csproj.CoreCompileInputs.cache
+C:\Users\emman\Desktop\Software Learning\Courses and certificate\C#\Ex_Files_Learning_C_Sharp\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Overview\VarsAndData\obj\Debug\net7.0\VarsAndData.dll
+C:\Users\emman\Desktop\Software Learning\Courses and certificate\C#\Ex_Files_Learning_C_Sharp\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Overview\VarsAndData\obj\Debug\net7.0\refint\VarsAndData.dll
+C:\Users\emman\Desktop\Software Learning\Courses and certificate\C#\Ex_Files_Learning_C_Sharp\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Overview\VarsAndData\obj\Debug\net7.0\VarsAndData.pdb
+C:\Users\emman\Desktop\Software Learning\Courses and certificate\C#\Ex_Files_Learning_C_Sharp\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Overview\VarsAndData\obj\Debug\net7.0\VarsAndData.genruntimeconfig.cache
+C:\Users\emman\Desktop\Software Learning\Courses and certificate\C#\Ex_Files_Learning_C_Sharp\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Overview\VarsAndData\obj\Debug\net7.0\ref\VarsAndData.dll

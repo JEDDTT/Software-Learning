@@ -1,0 +1,15 @@
+C:\Users\emman\Desktop\Software Learning\Courses and certificate\C#\Ex_Files_Learning_C_Sharp\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Overview\Operators\bin\Debug\net7.0\Operators.exe
+C:\Users\emman\Desktop\Software Learning\Courses and certificate\C#\Ex_Files_Learning_C_Sharp\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Overview\Operators\bin\Debug\net7.0\Operators.deps.json
+C:\Users\emman\Desktop\Software Learning\Courses and certificate\C#\Ex_Files_Learning_C_Sharp\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Overview\Operators\bin\Debug\net7.0\Operators.runtimeconfig.json
+C:\Users\emman\Desktop\Software Learning\Courses and certificate\C#\Ex_Files_Learning_C_Sharp\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Overview\Operators\bin\Debug\net7.0\Operators.dll
+C:\Users\emman\Desktop\Software Learning\Courses and certificate\C#\Ex_Files_Learning_C_Sharp\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Overview\Operators\bin\Debug\net7.0\Operators.pdb
+C:\Users\emman\Desktop\Software Learning\Courses and certificate\C#\Ex_Files_Learning_C_Sharp\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Overview\Operators\obj\Debug\net7.0\Operators.csproj.AssemblyReference.cache
+C:\Users\emman\Desktop\Software Learning\Courses and certificate\C#\Ex_Files_Learning_C_Sharp\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Overview\Operators\obj\Debug\net7.0\Operators.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emman\Desktop\Software Learning\Courses and certificate\C#\Ex_Files_Learning_C_Sharp\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Overview\Operators\obj\Debug\net7.0\Operators.AssemblyInfoInputs.cache
+C:\Users\emman\Desktop\Software Learning\Courses and certificate\C#\Ex_Files_Learning_C_Sharp\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Overview\Operators\obj\Debug\net7.0\Operators.AssemblyInfo.cs
+C:\Users\emman\Desktop\Software Learning\Courses and certificate\C#\Ex_Files_Learning_C_Sharp\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Overview\Operators\obj\Debug\net7.0\Operators.csproj.CoreCompileInputs.cache
+C:\Users\emman\Desktop\Software Learning\Courses and certificate\C#\Ex_Files_Learning_C_Sharp\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Overview\Operators\obj\Debug\net7.0\Operators.dll
+C:\Users\emman\Desktop\Software Learning\Courses and certificate\C#\Ex_Files_Learning_C_Sharp\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Overview\Operators\obj\Debug\net7.0\refint\Operators.dll
+C:\Users\emman\Desktop\Software Learning\Courses and certificate\C#\Ex_Files_Learning_C_Sharp\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Overview\Operators\obj\Debug\net7.0\Operators.pdb
+C:\Users\emman\Desktop\Software Learning\Courses and certificate\C#\Ex_Files_Learning_C_Sharp\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Overview\Operators\obj\Debug\net7.0\Operators.genruntimeconfig.cache
+C:\Users\emman\Desktop\Software Learning\Courses and certificate\C#\Ex_Files_Learning_C_Sharp\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Overview\Operators\obj\Debug\net7.0\ref\Operators.dll
