@@ -1,0 +1,15 @@
+C:\Users\emman\Desktop\Software Learning\Courses and certificate\C#\Ex_Files_Learning_C_Sharp\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Program Flow\ForLoops\bin\Debug\net7.0\ForLoops.exe
+C:\Users\emman\Desktop\Software Learning\Courses and certificate\C#\Ex_Files_Learning_C_Sharp\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Program Flow\ForLoops\bin\Debug\net7.0\ForLoops.deps.json
+C:\Users\emman\Desktop\Software Learning\Courses and certificate\C#\Ex_Files_Learning_C_Sharp\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Program Flow\ForLoops\bin\Debug\net7.0\ForLoops.runtimeconfig.json
+C:\Users\emman\Desktop\Software Learning\Courses and certificate\C#\Ex_Files_Learning_C_Sharp\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Program Flow\ForLoops\bin\Debug\net7.0\ForLoops.dll
+C:\Users\emman\Desktop\Software Learning\Courses and certificate\C#\Ex_Files_Learning_C_Sharp\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Program Flow\ForLoops\bin\Debug\net7.0\ForLoops.pdb
+C:\Users\emman\Desktop\Software Learning\Courses and certificate\C#\Ex_Files_Learning_C_Sharp\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Program Flow\ForLoops\obj\Debug\net7.0\ForLoops.csproj.AssemblyReference.cache
+C:\Users\emman\Desktop\Software Learning\Courses and certificate\C#\Ex_Files_Learning_C_Sharp\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Program Flow\ForLoops\obj\Debug\net7.0\ForLoops.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emman\Desktop\Software Learning\Courses and certificate\C#\Ex_Files_Learning_C_Sharp\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Program Flow\ForLoops\obj\Debug\net7.0\ForLoops.AssemblyInfoInputs.cache
+C:\Users\emman\Desktop\Software Learning\Courses and certificate\C#\Ex_Files_Learning_C_Sharp\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Program Flow\ForLoops\obj\Debug\net7.0\ForLoops.AssemblyInfo.cs
+C:\Users\emman\Desktop\Software Learning\Courses and certificate\C#\Ex_Files_Learning_C_Sharp\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Program Flow\ForLoops\obj\Debug\net7.0\ForLoops.csproj.CoreCompileInputs.cache
+C:\Users\emman\Desktop\Software Learning\Courses and certificate\C#\Ex_Files_Learning_C_Sharp\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Program Flow\ForLoops\obj\Debug\net7.0\ForLoops.dll
+C:\Users\emman\Desktop\Software Learning\Courses and certificate\C#\Ex_Files_Learning_C_Sharp\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Program Flow\ForLoops\obj\Debug\net7.0\refint\ForLoops.dll
+C:\Users\emman\Desktop\Software Learning\Courses and certificate\C#\Ex_Files_Learning_C_Sharp\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Program Flow\ForLoops\obj\Debug\net7.0\ForLoops.pdb
+C:\Users\emman\Desktop\Software Learning\Courses and certificate\C#\Ex_Files_Learning_C_Sharp\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Program Flow\ForLoops\obj\Debug\net7.0\ForLoops.genruntimeconfig.cache
+C:\Users\emman\Desktop\Software Learning\Courses and certificate\C#\Ex_Files_Learning_C_Sharp\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Program Flow\ForLoops\obj\Debug\net7.0\ref\ForLoops.dll

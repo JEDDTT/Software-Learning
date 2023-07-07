@@ -10,12 +10,22 @@ namespace WhileLoops
 
             // TODO: basic while loop executes while the gate condition is true
             Console.WriteLine("Basic while() loop:");
-
-            Console.WriteLine();
+            while (inputStr != "exit")
+            {
+                Console.WriteLine("Type exit to close the algorithm");
+                inputStr = Console.ReadLine();
+                Console.WriteLine("You have entered {0} ", inputStr);
+            }
+            Console.WriteLine("--------------------------------");
 
             // TODO: the do-while loop always executes at least one time
-            // Console.WriteLine("The  do-while() loop:");
-
+            Console.WriteLine("The  do-while() loop:");
+            do
+            {
+                Console.WriteLine("Type exit to close the algorithm");
+                inputStr = Console.ReadLine();
+                Console.WriteLine("You have entered {0}", inputStr);
+            } while (inputStr != "Exit");
             // Console.WriteLine();
         }
     }
