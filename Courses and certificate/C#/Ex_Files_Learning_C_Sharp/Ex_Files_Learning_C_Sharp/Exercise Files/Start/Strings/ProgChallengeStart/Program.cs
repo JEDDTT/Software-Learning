@@ -15,10 +15,18 @@ namespace ProgChallengeStart
             Console.WriteLine("Enter your guess, or -1 to give up.");
 
             // Keep track of the number of guesses and the current user guess
+            int guessCount = 0;
+            int currentGuess = 0;
 
             // Start the game and run until user quits or guesses correctly
             // HINT: You'll need a way to convert the user's input to an integer
-            
+            while (currentGuess != -1)
+            {
+                String input = Console.ReadLine();
+
+
+
+            }
         }
     }
 }

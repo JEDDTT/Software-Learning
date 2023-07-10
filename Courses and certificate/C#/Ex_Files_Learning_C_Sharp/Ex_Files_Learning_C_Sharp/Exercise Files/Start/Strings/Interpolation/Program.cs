@@ -14,13 +14,14 @@ namespace StringInterpolation
             decimal price = 60_275.0m;
 
             // TODO: Output information using formatting
-
+            Console.WriteLine("This car is a {0} {1} {2}, with {3} miles and costs ${4}",
+                year, make, model, miles, price);
 
             // TODO: Using string interpolation
-
+            Console.WriteLine($"The car is a {year} {model} {make}, with {miles} miles and cost {price:C2}");
 
             // TODO: With inline expressions
-
+            Console.WriteLine($"The car is a {year} {{{model}}} {make}, with {miles * 1.6:F2} km and cost {price:C2}");
         }
     }
 }
