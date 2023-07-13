@@ -1,0 +1,94 @@
+Course Title: Learning C#
+
+Description: The C# language got its start on Windows, but today you can find it almost everywhere.  Whether it’s running on the cloud, to desktops with MacOS and Linux, to mobile operating systems like Android and iOS, C# has grown into a mature, powerful language for almost any programming purpose. In this course, Joe Marini dives into the fundamentals of C#, starting with a basic overview of language constructs like program flow and data types. He then gets into more advance topics such as functions, object-oriented programming techniques, and string processing. After this course, you’ll have a better understanding of C#, and how its combination of power, simplicity, and expressiveness make it an extremely versatile programming language that can be used for almost any scenario.
+
+
+***********************************************
+Chapter: Introduction
+***********************************************
+
+
+-----------------------------------------------
+Video: How to run the examples
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:03:31            dotnet run coomand is used to run a c# program 
+
+
+***********************************************
+Chapter: 1. Overview of C#
+***********************************************
+
+
+-----------------------------------------------
+Video: Hello World C#
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:01:05            dotnet new console command is used to create a new console. 
+
+
+-----------------------------------------------
+Video: Variables and data types
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:01:13            decimal variable has a d at the end of a number: decimal d = 10.0m; 
+
+0:01:13            float variable in C sharp has f at the end of the number : float f = 2.0f; 
+
+
+-----------------------------------------------
+Video: Operators
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:05:33            The double question mark operator ?? uses the left operand if it is nor null, or the right one, if it is. 
+
+
+-----------------------------------------------
+Video: Writing C# comments
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:02:36            XML documentation comment can be used to automatically generate documentation directly from your source code.
+These comments start with three forward slashes /// and then have XML for the content. 
+
+
+***********************************************
+Chapter: 2. C# Program Flow
+***********************************************
+
+
+-----------------------------------------------
+Video: Conditionals with "if"
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:05:02            ternary operation for two case, of statement for three to four cases and switch statement for multiple cases. 
+
+
+-----------------------------------------------
+Video: Using break and continue
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:01:02            The break statement terminates the loop and exits.
+The continue statement skips the rest of the loop entirely and jumps to the next iteration. 
+
+
+***********************************************
+Chapter: 5. Object-Oriented C#
+***********************************************
+
+
+-----------------------------------------------
+Video: Access modifiers
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:54            public: Method or class member can be accessed by any other code within your program.
+Protected: Method or class member can be accessed only by code within the class or a subclass.
+Private: Method or class member can only be accessed by code within the class definition itself. 
+

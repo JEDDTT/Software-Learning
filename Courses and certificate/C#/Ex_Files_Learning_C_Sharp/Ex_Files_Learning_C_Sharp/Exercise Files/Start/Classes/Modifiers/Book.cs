@@ -17,17 +17,37 @@ namespace Modifiers
         // within the class itself
         int _pagecount;
 
-        public Book(string name, string author, int pages) {
+        public Book(string name, string author, int pages)
+        {
             _name = name;
             _author = author;
             _pagecount = pages;
         }
 
-        public string GetDescription() {
+        public string GetDescription()
+        {
             return $"{_name} by {_author}, {_pagecount} pages";
         }
 
         // TODO: Member variables can be accessed via methods
+        public string GetName()
+        {
+            return _name;
+        }
 
+        public void SetName(string s)
+        {
+            _name = s;
+        }
+
+        public void SetAuthor(string s)
+        {
+            _author = s;
+        }
+
+        public void SetPagecount(int c)
+        {
+            _pagecount = c;
+        }
     }
 }

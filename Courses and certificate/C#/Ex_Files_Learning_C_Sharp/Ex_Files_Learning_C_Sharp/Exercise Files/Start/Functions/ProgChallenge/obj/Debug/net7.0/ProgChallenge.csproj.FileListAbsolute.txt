@@ -1,0 +1,5 @@
+C:\Users\emman\Desktop\Software Learning\Courses and certificate\C#\Ex_Files_Learning_C_Sharp\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Functions\ProgChallenge\obj\Debug\net7.0\ProgChallenge.csproj.AssemblyReference.cache
+C:\Users\emman\Desktop\Software Learning\Courses and certificate\C#\Ex_Files_Learning_C_Sharp\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Functions\ProgChallenge\obj\Debug\net7.0\ProgChallenge.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emman\Desktop\Software Learning\Courses and certificate\C#\Ex_Files_Learning_C_Sharp\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Functions\ProgChallenge\obj\Debug\net7.0\ProgChallenge.AssemblyInfoInputs.cache
+C:\Users\emman\Desktop\Software Learning\Courses and certificate\C#\Ex_Files_Learning_C_Sharp\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Functions\ProgChallenge\obj\Debug\net7.0\ProgChallenge.AssemblyInfo.cs
+C:\Users\emman\Desktop\Software Learning\Courses and certificate\C#\Ex_Files_Learning_C_Sharp\Ex_Files_Learning_C_Sharp\Exercise Files\Start\Functions\ProgChallenge\obj\Debug\net7.0\ProgChallenge.csproj.CoreCompileInputs.cache
