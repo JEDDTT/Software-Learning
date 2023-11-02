@@ -1,0 +1,424 @@
+Course Title: HTML Essential Training
+
+Description: Hypertext Markup Language (HTML) is the foundation of website and web application development. It allows you to ensure that your content is understood by both segments of your audience: the people who watch, read, or listen to your content, and the computers that display it. In this course, learn how to craft excellent HTML with the pieces that HTML itself has to offer. Instructor Jen Simmons highlights all of the fundamental concepts you need to use HTML thoughtfully. She focuses on semantic markup: tagging content as what it is, and not just for formatting, convention, or convenience. This has far-reaching impact for those who consume the web differently; it ensures that when a screen reader or a system (like a search engine) consumes a page, it knows exactly what it contains and how to categorize that information.
+
+
+***********************************************
+Chapter: 1. HTML
+***********************************************
+
+
+-----------------------------------------------
+Video: The role of HTML
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:11            HTML defines the content of a site, it marks up the content of a site. 
+
+0:00:41            CSS(Cascading Style Sheet) defines the stying of a site. 
+
+0:00:50            JavaScript provides interactivity. 
+
+0:02:33            HTML is a declarative language that simply declares where the head, paragraph, navigation, form... 
+
+
+***********************************************
+Chapter: 2. Formatting Text
+***********************************************
+
+
+-----------------------------------------------
+Video: The syntax of HTML elements
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:03:18            Document Object Model (DOM) Tree is the hierarchy and structure of HTML elements, often used for targeting elements in CSS and javaScript. 
+
+
+-----------------------------------------------
+Video: Bold and italics
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:02:00            The <i> element is used for visual-only italics while the <emp> element is used for emphasis italics. 
+
+0:02:54            The <strong> element conveys importance, seriousness, and urgency. 
+
+0:03:11            The <b> element is generic and neutral, it is used only to style something in bold. 
+
+
+-----------------------------------------------
+Video: Lists
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:35            There are three kinds of lists: Unordered List, Ordered List and Definition List. 
+
+0:04:19            <dl> <dt> Title </dt> <dd> content </dd> 
+
+0:04:51            <dl>Definition List </dl>      
+
+0:04:51            <dl> <dt> term </d> <dd> definition </dd> <dd>additional definition </dd> </dl> 
+
+
+-----------------------------------------------
+Video: Quotes
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:01:07            <blockquote> <p> </p> <cite> </cite> </blockquote>. 
+
+0:01:40            <p> <q> </q> <p>               
+
+0:02:11            <q> stands for quote.          
+
+0:02:37            Inline elements are <q> <strong> <b> <i> <em>. 
+
+0:03:06            Block-level Elements are: <blockquote>, <p> <ul>, this element start a new block. 
+
+
+-----------------------------------------------
+Video: Dates and times
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:31            We use the time element to format the date and time or anything that is related to a specific moment or range. 
+
+0:01:01            in time, into something other computer can understand. 
+
+
+-----------------------------------------------
+Video: Code, pre, and br
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:31            <code></code> is used to explicit a code in a page. 
+
+0:01:51            HTML entities: &lt we will get a less than symbol, &gt we will get greater than symbol. 
+
+0:03:22            <br> tag is used to break a line commonly in a paragraph. 
+
+0:03:56            <pre> tag or element is used to tell the browser to follow the indentation manually typed. 
+
+
+-----------------------------------------------
+Video: Superscripts, subscripts, and small text
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:14            Subscript: Characters that are set below the text baseline. 
+
+0:00:35            Superscripts: characters that are set above the text baseline. 
+
+0:00:52            <sub> for the subscript and <sup> for superscript. 
+
+0:01:34            MathML: it is a specialized markup language for math and It's more powerful than what HTML can do. 
+
+0:02:41            <small> element is used to convey something that has very little prominence.. 
+
+
+***********************************************
+Chapter: 3. Understanding the Power of HTML
+***********************************************
+
+
+-----------------------------------------------
+Video: HTML attributes
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:42            Global Attributes: Attributes that can be applied to any HTML element. 
+
+0:00:51            The most most used global attribute is The <em> class </em> attribute. 
+
+0:01:03            id attribute is another popular global attribute that allows us to target a unique element with that id in our CSS of JavaScript. 
+
+0:02:11            <blockquote contenteditable="true'> allows contents to be edited by users. 
+
+0:03:49            And the rest two of global attributes are lang and dir. 
+
+
+-----------------------------------------------
+Video: ARIA roles
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:03            ARIA Roles are another kind of attribute that can be added to any HTML element. 
+
+0:00:10            to give more meaning and to make sure the computer understands what it means. 
+
+0:00:55            ARIA Roles: HTML attributes that provide accessible information about that specific element. 
+
+0:02:25            The accessibility tree is what assistive devices use to provide an experience of website through the screen reader. 
+
+0:03:43            aria-label and aria-hidden.    
+
+
+-----------------------------------------------
+Video: Formatting HTML
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:01:03            In HTML we add comments by using <-- comments -->. 
+
+
+-----------------------------------------------
+Video: Weird characters
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:01:54            Check W3C to see all the entity in HTML. 
+
+0:02:23            &nbsp: non breaking space keywords: to not break space between two words. 
+
+
+***********************************************
+Chapter: 4. Linking and Navigation
+***********************************************
+
+
+-----------------------------------------------
+Video: Links
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:01:21            To make a link we use an <a href="page.html"> title </a>. 
+
+0:03:46            Absolute URL point to a specific page and we must use https. 
+
+
+-----------------------------------------------
+Video: Navigation
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:01:27            Role attribute is an aria roles used to tell assistive device the role of the element. 
+
+
+***********************************************
+Chapter: 5. Images and Graphics
+***********************************************
+
+
+-----------------------------------------------
+Video: Images
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:18            To put an image in a page, we use the <img> element. 
+
+0:00:27            The <img> element has 4 attributes that must be included which are: src, alt, and the width and height attributes. 
+
+
+-----------------------------------------------
+Video: Image formats
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:04:48            There are 4 main image formats commonly used on the web today:
+1.Gif: Does well compressing large areas of a single color. It has a limited color space of 256 colors, it can do transparency, with jagged edges, it can have multiple frames, and make a little movie
+2. SVG: it is great for logos, icons, etc... It is a vector file, and it contains instructions for drawing. it stands for Scalable vector graphic
+3.JPG: Image format for compressing photos. It can be compressed, you pick a good balance between quality and size.
+4.PNG: images that need transparency, Good at compression. 
+
+
+-----------------------------------------------
+Video: Responsive images
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:04:09            srcset attribute is used to tell the browser which pictures to display according to the power of the screen. 
+
+
+-----------------------------------------------
+Video: Responsive width
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:02:09            The sizes attribute Lists which size image to use at which media query. 
+
+0:02:33            The srcset attribute allows you to specify multiple files to be used based on either viewport width or image pixel width. 
+
+
+-----------------------------------------------
+Video: Responsive pictures
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:03:47            The <picture> and the <source> elements are used to set the specific image to display according to specific ranges of minimum width. 
+
+0:05:11            Responsive Images course goes deeper into the topic. 
+
+
+-----------------------------------------------
+Video: Figure and figcaption
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:01:05            The <figure> for anything that appears as a figure, illustrating something.
+The <figcaption> element for demonstration of a concept which needs a caption. 
+
+
+***********************************************
+Chapter: 6. Media
+***********************************************
+
+
+-----------------------------------------------
+Video: Audio
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:16            We can use the <audio> element to place audio on a webpage. 
+
+0:01:36            We can use controls src attribute to add control in the audio. 
+
+0:02:10            The autoplay attribute will make the audio to automatically plays as soon as the page loads. 
+
+0:02:10            The loop attribute will make the audio repeat itself when it ends. 
+
+0:02:36            The audio element can be used with the source element to specify more than one audio file. 
+
+
+-----------------------------------------------
+Video: Video
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:01:22            The H.264 codec currently has the widest support across browsers. 
+
+0:01:22            The video element (<video> </video>) is used to create video content.
+The controls attribute tells the browser to provide a control panel for the video. 
+
+0:02:29            The H.264 is widely used, not open source and fees to use. 
+
+0:05:15            Usually when a video is streamed on a page, it is constantly switching from one resolution to another as people watch, using a technique called adaptive bitrate streaming, 
+
+
+-----------------------------------------------
+Video: Captions and subtitles
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:01:19            Webvtt stands for Web video text track. 
+
+0:01:40            We can use the track element to upload a vtt file. 
+
+0:02:47            On the track element, we use the src attribute to upload a vtt file, we use the kind attribute to tell the browser that this is a caption, we use the label element to specify the label of the caption, we use the srclang attribute to specify which language this is and the default attribute to specify that this track it is the only one to use by default when a user turns on captions. 
+
+
+-----------------------------------------------
+Video: Embedding other media through iframes
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:18            Embedding is taking content from one site into the body of a page on another site. 
+
+
+***********************************************
+Chapter: 7. More Ways to Identify Content
+***********************************************
+
+
+-----------------------------------------------
+Video: Supporting languages
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:02:24            The lang attribute set the language, script, and alphabet on a web page. 
+
+0:02:56            The dir attribute is a global attribute that specifies the direction for the text to be written. 
+
+0:03:17            The charset attribute defines the alphabet or set of characters for the script language. 
+
+
+-----------------------------------------------
+Video: Generic elements: div and span
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:02:12            <div> is a block level element and <span> is an inline level element. 
+
+
+***********************************************
+Chapter: 8. Putting It All Together
+***********************************************
+
+
+-----------------------------------------------
+Video: The HTML page
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:02:17            HTML file is the first file that is returned in response to a request for a webpage. 
+
+0:03:23            The doctype declaration declares which era this HTML file is from. 
+
+0:04:38            The head element contains information the browser needs to know, though it won't be displayed on the page. 
+
+0:04:45            The body element contains the information and content that will be displayed on the page, 
+
+
+-----------------------------------------------
+Video: Document head
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:26            The meta element: Only used inside the head, conveys metadata about the page. 
+
+0:02:32            The Link element, links to a range of other assets we want to load. 
+
+0:02:45            The rel Attribute tells the browser which kind of asset it is. 
+
+0:02:50            The href attribute is used to provide the URL to the asset. 
+
+0:03:26            The script element tells the browser to load a JavaScript file. 
+
+
+-----------------------------------------------
+Video: Structuring content
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:17            There are six major elements to learn which are: main, header, footer, article, section, and aside. 
+
+0:00:28            The main element wraps around the main content of the page. 
+
+0:00:33            The header and footer elements are used to mark places on the page where the content is a header or a footer. 
+
+0:01:58            The article element wraps around any instance of an article. 
+
+0:02:38            The section element is used to wraps around sections of content. 
+
+0:03:12            The aside element marks content that is off to the side or not the main attraction. 
+
+
+***********************************************
+Chapter: 9. Forms and Interactive Elements
+***********************************************
+
+
+-----------------------------------------------
+Video: Additional form element types
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:02:17            form, label, input, text area. 
+
+0:03:45            type of input: Color, date, file, checkbox... 
+
+0:04:09            select element(option element), fieldset (legend element) 
+
+
+***********************************************
+Chapter: 10. Structuring Tabular Data
+***********************************************
+
+
+-----------------------------------------------
+Video: Building table rows
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:11            elements to use to create a table are : <table>, <tr>, <th>, <td>. 
+
