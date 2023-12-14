@@ -1,0 +1,49 @@
+Course Title: Programming Foundations: Web Security (2019)
+
+Description: Learn about the most important security concerns when developing websites, and what you can do to keep your servers, software, and data safe from harm. Instructor Kevin Skoglund explains what motivates hackers and their most common methods of attacks, and then details the techniques and mindset needed to craft solutions for these web security challenges. Learn the eight fundamental principles that underlie all security efforts, the importance of filtering input and controlling output, and how to defend against the most common types of attack. This course is essential for developers who want to secure their websites, and for anyone else who wants to learn more about web security.
+
+
+***********************************************
+Chapter: 2. General Security Principles
+***********************************************
+
+
+-----------------------------------------------
+Video: Simple is more secure
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:02:34            Simple is more secure. In order to increase security it is important to follow the best practices such as:
+1. Use clearly named functions and variables
+2. Write code comments.
+3. Prefer built-in functions.
+4. Remove cruft.
+5. Disable unused features.
+6. Break up long sections of code.
+7, Don't repeat yourself. 
+
+
+-----------------------------------------------
+Video: Expect the unexpected
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:01:48            Edge cases help to identify unplanned path taken by users, 
+
+
+-----------------------------------------------
+Video: Defense in depth
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:02:03            Defensive Control: Physical, technical, and administrative.
+Technical controls: Hardware, Software, and Network protections. 
+
+
+-----------------------------------------------
+Video: Security through obscurity
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:01:16            Footprinting is a systematic exploration of a system's defenses and vulnerabilities. 
+

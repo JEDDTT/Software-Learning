@@ -1,0 +1,172 @@
+Course Title: Learning SQL Programming
+
+Description: More from LinkedIn Learning's top expertsProgramming Languages NewsletterStructured Query Language (SQL) is a common tool for retrieving data from relational databases such as SQL Server, MySQL, MariaDB, and PostgreSQL. This course provides an introduction to this core programming language. Learn how to request data from a database, limit and sort the responses, aggregate data from multiple tables with joins, and edit and delete data. Instructor Scott Simpson also shows how to perform simple math operations and transform data into different formats.
+
+
+***********************************************
+Chapter: Introduction
+***********************************************
+
+
+-----------------------------------------------
+Video: What is a database?
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:11            Database is a collection of information, usually involving relationships between the data stored in it. 
+
+
+-----------------------------------------------
+Video: What is SQL?
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:09            SQL stands for Structured query language. 
+
+0:00:14            sql came into use in 1974 and became a standard in 1986. 
+
+0:02:01            SQL was originally called SEQUEL for Structured English Query Language. 
+
+0:04:29            Keywords tell the database to take some action.
+Field and table names specify where to look and what to look for,
+Predicates are conditions, and expressions represent values.
+Statement should end with a semicolon. 
+
+0:06:00            When we use SQL to work (CRUD: create, read, update,and delete) with data within an existing tables, SQL is used as DML: Data manipulation language
+When we use SQL to make changes to the structure of tables themselves, SQL is used as a DDL: data definition language. such as removing, adding, editing fields and tables. 
+
+
+***********************************************
+Chapter: 1. Ask for Data from a Database
+***********************************************
+
+
+-----------------------------------------------
+Video: Ask for data with SELECT
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:08            The SELECT keyword tells the database we want some information returned to us. 
+
+0:00:40            SELECT 'HELLO WORLD' to get string from the database. 
+
+
+-----------------------------------------------
+Video: Narrow down a query with WHERE
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:07            WHERE keyword lets us add selection criteria to a statement. 
+
+
+-----------------------------------------------
+Video: Adding more criteria to a statement
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:01:32            IS keyword can operate as an  equal sign in SQL 
+
+0:01:45            IS NOT keyword can operate the same as the not equal sign !=. 
+
+0:01:53            <> not equal operator also.    
+
+0:02:29            OR and AND keyword.            
+
+0:03:31            Add parentheses to specify how fields should be grouped to be analysed by OR and AND. 
+
+
+-----------------------------------------------
+Video: Broadening and limiting responses
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:03            LIKE '%' Return results that match part of a string, The % character represents the portion of the string to ignore. 
+
+0:03:18            LIMIT n keyword: stop returning results after n results have been returned. 
+
+
+-----------------------------------------------
+Video: Organize responses with ORDER BY
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:04            ORDER BY field1, field2...: sort the result of a query using field1, then field2 and so on. 
+
+0:01:27            ORDER BY ASC DESC              
+
+
+-----------------------------------------------
+Video: Find information about the data
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:48            LENGHT(field) function returns the length of the instance of that field. 
+
+0:01:22            The DISTINCT function returns unique value. 
+
+0:03:32            COUNT() function counts the total of instances of the specific field. 
+
+
+***********************************************
+Chapter: 2. Ask for Data from Two or More Tables
+***********************************************
+
+
+-----------------------------------------------
+Video: Ask for data across two or more tables
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:05            JOIN ask for records across two tables that are associated with each other based on a common piece of information. 
+
+
+-----------------------------------------------
+Video: Grouping results
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:47            Group by keyword tells the database to run our SELECT clause against each individual grouping by the field we specify. 
+
+
+-----------------------------------------------
+Video: Solution: Practice with JOINs
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:08            Challenge Solution
+SELECT states.state_name, COUNT(people.shirt_or_hat)
+FROM states
+JOIN people ON states.state_abbrev=people.state_code
+WHERE people.shirt_or_hat='hat'
+GROUP BY people.shirt_or_hat, states.state_name; 
+
+0:01:02            SELECT states.division, people.team, COUNT(people.team)
+FROM states
+JOIN people ON states.state_abbrev=people.state_code
+GROUP BY states.division, people.team; 
+
+
+***********************************************
+Chapter: 3. Data Types, Math, and Helpful Features
+***********************************************
+
+
+-----------------------------------------------
+Video: Compound Select
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:14            Using a secondary select statement inside of another query is called a sub query or sub-select. 
+
+
+-----------------------------------------------
+Video: Transforming data
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:49            LOWER() and UPPER() functions can transform a string into capital and small letters. 
+
+0:01:22            SUBSTR() is used to retrieve specific letters from a string. 
+
+0:05:53            CAST(field AS CHAR) transform data type into a requested data type. 
+
