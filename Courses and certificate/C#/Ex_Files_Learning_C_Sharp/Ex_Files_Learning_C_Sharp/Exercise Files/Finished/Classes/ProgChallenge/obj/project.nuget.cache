@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "N5G7TEM8rmWZHSLMuX6Bz71t61wLAt+ziSAB9nG5IgljW4LDqilR8dfxakT8PRq0Y0x/ileKbA3TkxKa1dyTvg==",
+  "success": true,
+  "projectFilePath": "c:\\Users\\emman\\Desktop\\Software Learning\\Courses and certificate\\C#\\Ex_Files_Learning_C_Sharp\\Ex_Files_Learning_C_Sharp\\Exercise Files\\Finished\\Classes\\ProgChallenge\\ProgChallenge.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\emman\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\emman\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\emman\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\emman\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+  ],
+  "logs": []
+}
