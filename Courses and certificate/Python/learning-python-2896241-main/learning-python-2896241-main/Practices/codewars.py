@@ -48,11 +48,54 @@ For example (Input -> Output):
 """
 
 
-def summation(num):
-    #     result = 0
-    #     for n in range(0, num):
-    #         result += n
-    return num * (num + 1) // 2
+# def summation(num):
+#     #     result = 0
+#     #     for n in range(0, num):
+#     #         result += n
+#     return num * (num + 1) // 2
 
 
-print(summation(3))
+# print(summation(3))
+
+"""
+The function should take three arguments - operation(string/char), value1(number), value2(number).
+The function should return result of numbers after applying the chosen operation.
+
+Examples(Operator, value1, value2) --> output
+('+', 4, 7) --> 11
+('-', 15, 18) --> -3
+('*', 5, 5) --> 25
+('/', 49, 7) --> 7
+"""
+# def basic_op(operator, value1, value2):
+#     if (operator == "+"): #Addtion
+#         return value1 + value2
+#     elif(operator == "-"): #Subtraction
+#         return value1 - value2
+#     elif(operator == '*'): #Multiplication
+#         return value1 * value2
+#     elif (operator == "/"): #Division
+#         return value1 / value2
+#     else:
+#         return "Please enter a correct input"
+
+# def basic_op(operator, value1, value2):
+#     return eval("{}{}{}".format(value1, operator, value2))
+# def basic_op(o, a, b):
+#     return {'+':a+b,'-':a-b,'*':a*b,'/':a/b}.get(o)
+# def basic_op(operator, value1, value2):
+#     match operator:
+#         case '+':
+#             return value1 + value2
+#         case '-':
+#             return value1 - value2
+#         case '*':
+#             return value1 * value2
+#         case '/':
+#             return value1 / value2
+# def basic_op(operator, value1, value2):
+#     ops = {'+': lambda a, b: a + b,
+#            '-': lambda a, b: a - b,
+#            '*': lambda a, b: a * b,
+#            '/': lambda a, b: a / b}
+#     return ops[operator](value1, value2)
