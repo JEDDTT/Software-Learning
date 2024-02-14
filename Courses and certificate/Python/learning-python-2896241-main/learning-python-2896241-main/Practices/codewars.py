@@ -120,3 +120,47 @@ The input string can be of arbitrary length - in particular, it may be empty. Al
 # def dna_to_rna(dna):
 #     rna = dna.replace('T', 'U')
 #     return rna
+
+"""
+Write a function which calculates the average of the numbers in a given list.
+
+Note: Empty arrays should return 0.
+"""
+# def find_average(numbers):
+#     # your code here
+#     if not(numbers):
+#         return 0
+#     else:
+#         return sum(numbers) / len(numbers)
+# def find_average(array):
+#     return sum(array) / len(array) if array else 0
+# def find_average(array):
+#     try:
+#         return sum(array) / len(array)
+#     except ZeroDivisionError:
+#         return 0
+"""
+You will be given an array a and a value x. All you need to do is check whether 
+the provided array contains the value.
+Array can contain numbers or strings. X can be either.
+Return true if the array contains the value, false if not. 
+"""
+# def check(seq, elem):
+#     return (elem in seq)
+# def check(list, x):
+#     while True:
+#         if x in list:
+#             return True
+#         else:
+#             return False
+#     pass
+"""
+Given an array of integers as strings and numbers, return the sum of the array values as 
+if all were numbers.
+
+Return your answer as a number. 
+"""
+# def sum_mix(arr):
+#     return sum(int(i) for i in arr)
+#  def sum_mix(arr):
+#     return sum(map(int, arr))
