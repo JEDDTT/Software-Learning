@@ -1,0 +1,62 @@
+Welcome to Database Users and Usage Patterns.
+After watching this video, you will be able to: Recall the major categories of database
+users and their use-cases for dB access List the interfaces and tools used
+by different types of database users How you access a database and the
+tools you use depends on your job role. Three main classes of Database users are:
+Data Engineers Data Scientists and Business Analysts
+Application Developers Data Engineers and Database Administrators (DBAs)
+generally access the database for administrative tasks such as creating and managing database
+objects, setting access controls, monitoring and performance tuning. They typically use one or
+more of the following mechanisms for these tasks: GUI or web-based management tools
+Most databases come with graphical tools or web-based tools (especially for
+cloud databases) or even mobile apps. In some cases, the tools provided by
+the database vendors maybe limited in functionality or usability so third-party tools
+or specialized tools may also be available. Command line interfaces and utilities
+With more fully functional GUI tools, command line usage has declined but a data
+engineer still requires some knowledge Command line interfaces can be simple database
+commands you issue from the terminal, eg: > db2 create database sample
+> mysqldump sakila > sakila.sql Or interactive command line shells
+such as sqlplus for oracle or db2 clp > db2
+db2> connect to sample Or SQL scripts and batch files
+that you execute from the shell APIs
+Many databases also include programmatic Interfaces or APIs for administrative tasks
+that can be invoked from applications and tools that the Data Engineers or third parties create
+Data analysts, data scientists, business analysts, and business intelligence analysts access
+databases for analyzing data in databases, deriving insight from this data, and
+making data driven predictions. Therefore, their data access patterns involve accessing
+existing data sources and is typically read-only. However, at times they may need to create
+database objects and populate them with data, especially in their own sandbox environments.
+Some of the tools used for data science and machine learning include Jupyter,
+R Studio, Zeppelin, SAS, And SPSS. Popular tools for Reporting, Dashboarding,
+and Business Intelligence include spreadsheet software like Microsoft Excel, IBM Congos,
+Microsoft PowerBI, Tableau, and MicroStrategy. Both the DS and BI tools interface with relational
+databases using SQL interfaces and APIs. In many cases these interfaces abstract
+away the need to use SQL directly. These users may at times also need to use
+SQL Query tools for adhoc querying. Most databases come with their own visual SQL
+Query tools but there are also 3rd party tools that work with a variety of databases.
+Application developers seldom access databases directly. They create applications which
+can require both read and write access to databases. Applications are written using
+programming languages such as C++, C#, Java, Javascript, .Net, PHP, Perl, Python, and Ruby.
+These languages talk to the database using SQL interfaces and APIs such as ODBC and JDBC.
+Some Databases, especially cloud-based ones, also include REST APIs for accessing data. And
+while it is possible to program your applications using these lower-level APIs or REST APIs,
+and this is how applications in the past were developed, most programmers these
+days use object relational mapping (ORM) frameworks for working with databases, as they
+are easier to use and mask the complexity of the underlying relational database and SQL.
+Examples of popular ORM Frameworks include: ActiveRecord in Ruby applications
+Django in Python Entity Framework in .NET
+Hibernate in Java and Sequelize in JavaScript
+In this video, you learned that: Three main classes of users are:
+Data Engineers Data Scientists and Business Analysts
+Application Developers Databases can be accessed through:
+Graphical and Web Interfaces which make it easy to interact with the database visually.
+Command line tools and scripts can be cumbersome to use but are powerful in the hands
+of an experienced Data Engineer and help with automating repetitive tasks.
+APIs and ORMs which help application developers create applications that access a database
+on behalf of a user or client application. Major categories of database applications include:
+Database Management tools like phpMyAdmin or pgAdmin.
+Data Science and BI tools like Microsoft Excel, IBM Congos, and MicroStrategy, which enable
+Data Scientists and Data Analysts to analyze data and produce targeted reports.
+Purpose built or off the shelf business applications for tasks such as
+e-commerce, supply chain, etc. The method you choose to access
+the database depends on your needs.

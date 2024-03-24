@@ -1,0 +1,72 @@
+Welcome to Introduction to
+Relational Databases Offerings. After watching this video, you will be able to:
+Summarize the history of relational databases List popular commercial and open source databases
+Discuss the popularity of open source and commercial databases in the past decade
+Discuss the rise in popularity of Cloud databases The first product recognizable as a relational
+database was in use during the 1960s: the IBM Sabre Seat Reservation System,
+used by American Airlines. In the early 70s, Edgar F. Codd listed
+12 rules to define relational databases. In the late 70s, Ingres, developed
+at the University of California, Berkeley (UCB), and System R, created
+at IBM San Jose were in use. In 1976, Peter P. Chen proposed a new database
+model called Entity-Relationship, or ER. The 1980s saw relational database
+systems become a commercial success. Db2 became the flagship database product
+for IBM, and Structured Query Language, or SQL, became the standard query language.
+In the late 80s, a workgroup in IBM designed a distributed relational database architecture
+enabling network connected relational databases to cooperate to fulfill SQL requests.
+By the early 1990s, new client tools for application development including
+Oracle Developer, PowerBuilder, and VB, along with tools for personal productivity, like
+ODBC, Excel, and Access were becoming popular. In the late 1990s there was exponential growth
+of the database industry. Average desktop users began to use client-server database systems to
+access computer systems that contain legacy data. Some of the most popular relational
+databases included giants such as Oracle, Microsoft SQL Server, and IBM Db2
+And in the 2000s, open source DBs starting to gain mainstream traction and
+started replacing many commercial databases. MySQL, PostgreSQL, and other systems brought
+open source solutions to the Internet. The 2010s saw the popularity of cloud
+databases soar with main players in the industry being Amazon RDS, IBM Db2 on
+Cloud, Microsoft SQL Azure, and Oracle Cloud. For many years, the most popular relational
+database systems were those from large corporates, which had the resources and
+talent to develop sophisticated, fully-featured systems that supported the needs of
+industry at that time. These relational databases sold under commercial licenses and are
+still popular, with Oracle, Microsoft SQL Server and IBM Db2 the market leaders.
+Most large corporates offer both on-premises and cloud-based versions of their products.
+In the late 2000s, open source licensing for relational database systems like MySQL,
+PostgreSQL, and SQLite surged in popularity. Open source databases operate under a variety
+of license types, but all are free to the user. Some examples of popular
+open source databases are: MySQL, produced by Oracle and offered under
+the General Public License version 2 license. PostgreSQL, produced by the PostgreSQL
+Global Development Group and offered under a PostgreSQL License which is
+free and open-source, permissive. SQLite, produced by Dwayne Richard Hipp
+and offered under a Public Domain license. The popularity of different kinds of database
+products is assessed monthly by industry analyst DB Engines. This list shows the ten most popular
+relational database systems as at February 2021. Oracle
+MySQL Microsoft SQL Server
+PostgreSQL IBM Db2
+SQLite Microsoft Access
+MariaDB Hive
+Microsoft Azure SQL Database This DB Engines ranking is based on:
+Mentions on websites (Google and Bing) General interest (Google Trends)
+Frequency of technical discussions (Stack Overflow and DBA Stack Exchange)
+Number of mentions in job offers (Indeed and Simply Hired)
+Mentions in LinkedIn profiles Other social media mentions
+Over the past decade, there has been a dramatic change in the popularity of commercial versus open
+source licensing across all types of software, including relational databases. The popularity of
+open source relational databases has risen as the popularity of commercial databases has fallen.
+Each now accounts for approximately 50% of the market, with open source slightly ahead at 50.1%.
+A 2021 DB Engines study found that open source systems account for 50.1% of the total DB
+Engines popularity scores, up from 35.5% in 2013. A cloud database is a database service built and
+accessed through a cloud platform. It serves many of the same functions as a traditional database
+with the added flexibility of cloud computing. The popularity of cloud databases has
+increased steadily over the past decade. The trend is driven by organizations moving
+to the Software-as-a-Service (SaaS) model to take advantage of cloud benefits like increased
+scalability. Cloud databases are highly scalable enabling organizations to process the vast
+amounts of data needed for data analytics. The popularity of cloud databases has
+more than doubled in the past decade, and this growth is set to continue.
+According to Gartner, Inc. by 2022 75% of all databases will be deployed
+or migrated to a cloud platform. Leading cloud databases include Amazon DynamoDB,
+Microsoft Azure Cosmos DB, Microsoft Azure SQL DB, Google BigQuery, and Amazon Redshift.
+In this video, you learned that: Relational databases are available with
+commercial licenses from companies like IBM, Oracle, and Microsoft.
+Open source relational databases are offered with a variety of
+licenses that make them free to the user. The popularity of open source relational databases
+has risen to approximately 50% in the past decade. The popularity of Cloud databases has
+more than doubled in the past decade.

@@ -1,0 +1,89 @@
+Welcome to Db2
+After watching this video, you will be able to:
+Describe Db2 and its history and features List various Db2 products and deployment options
+Describe Db2 on Cloud and its Plans Explain how you can work with Db2 on Cloud
+Describe Db2 high availability options Describe Db2 scalability with partitioning
+Database 2, or DB2, was first released by IBM in 1983 and was an early example of a
+relational database management system. This first release ran on IBM mainframe computers,
+but over the years different versions were developed to run on many other platforms,
+including OS/2, UNIX, Linux, and Windows. After some time, the product was rewritten
+to use the same codebase across the multiple operating systems so that you can easily port
+applications accessing Db2 data from one operating system to another. After many iterations of the offering across
+many platforms and with enhanced functionality, today Db2 is a whole suite of database management
+products including Db2 Database, Db2 Warehouse, Db2 on Cloud, Db2 Warehouse on Cloud, Db2
+Big SQL, Db2 Event Store, and Db2 for z/OS. There are many ways to evaluate these products. You can use Db2 Database Community License
+for free, with a 100 GB data limit or you can download a free Docker image of Db2 Database. You can also use the free Lite Plan of Db2
+on Cloud for development and evaluation purposes on IBM Cloud. Db2 Warehouse Enterprise Edition and Db2 Big
+SQL are available in no-cost trial editions, you can use Db2 Warehouse on Cloud for free
+for up to 1 GB of data, and you can download a free version of Db2 Event Store Developer
+Edition. The Db2 products all use AI-powered functionality
+to simplify the management and querying of your data, both on premises and in cloud environments. You can use machine learning algorithms to
+improve the efficiency and performance of queries, the column store feature to improve
+performance and reduce overheads for analytic workloads by directing queries to specific
+columns rather than processing an entire data table, and the data skipping feature to reduce
+overheads by automatically avoiding processing data that is not required in a particular
+query. The common SQL engine across all the Db2 family
+means that you can write a query once and be sure it will work with other products in
+the family. This simplifies migration of applications
+between products and platforms. And the support for all data types – relational,
+structured, and unstructured – means you can access all of your corporate data to make
+better business decisions. And the Db2 replication functionality enables
+you to implement high availability and disaster recovery solutions. Db2 provides scalability in a number of ways. For short peaks, you can extend on premises
+storage and power levels onto hosted cloud deployments and you can independently scale
+power and storage in a managed cloud deployment to only use and pay for extra resources when
+you need them. Or in Db2 Warehouse, you can use the Database
+Partitioning Feature to transparently split data across partitions and servers to maximise
+the compute power available and enable massively parallel processing. The Db2 family provides you with a range of
+data management products to work with data on premises or in the cloud. Db2 Database is a powerful enterprise-ready
+on premises RDBMS optimised for OLTP. It is supported on Linux, UNIX, and Windows
+and provides performance, high availability, scalability, and resilience. DB2 Warehouse is an on-premises data warehouse
+that provides advanced data analytics, massively parallel processing, and machine learning. Db2 on Cloud is a fully managed, cloud-based,
+SQL database which provides similar features to Db2 Database - performance, high availability,
+scalability, and resilience. And DB2 Warehouse on Cloud is a fully managed,
+elastic, cloud-based data warehouse an on-premises data warehouse that provides similar features
+to the on premises Db2 Warehouse. You can deploy both of these cloud-based products
+on IBM Cloud and Amazon Web Services. Db2 Big SQL is a SQL-on-Hadoop engine which
+provides massively parallel processing and advanced querying functionality. You can use it to query a range of data sources
+including Hadoop HDFS and WebHDFS, RDMS, NoSQL, and other object stores. You can integrate it with Cloudera Data Platform
+or use as a service on IBM Cloud Pak for Data. And Db2 Event Store is a memory-optimized
+database that you can use to ingest and analyze streamed data for event-driven applications. It includes IBM Watson Studio which provides
+you with a development environment for machine-learning models. And finally, Db2 for z/OS <VO – “zed oh
+ess”, ignoring the slash>, an enterprise data server for IBM Z. It provides a mission critical data solution
+with integration for analytics, mobile, and cloud that supports thousands of customers
+and millions of users. Cloud Pak for Data is a fully integrated data
+and AI platform that you can use to work with and manage all of your data. It runs on Red Hat OpenShift in a container,
+so you can deploy it on any private, public, or hybrid cloud. Using Cloud Pak for Data you can connect to
+Db2 or any other data source wherever it may be stored, use the Watson Knowledge Catalog
+to organise your data, work with a range of analytics services to gain insight on your
+data, and use Watson and other services to infuse AI into your systems. Db2 on Cloud is a great way to get started
+with Db2. It offers three plans for you: Lite, Standard,
+and Enterprise The Lite plan is free and time unlimited,
+meaning that you can use it in your projects without worrying about a time-limited trial
+period coming to an end. The plan is limited to 200 MB of data and
+15 simultaneous connections. The Standard plan provides flexible scaling
+of compute capability and storage, as well as built-in three-node high availability clustering. And the Enterprise plan provides you with
+a dedicated database instance, again with flexible scaling of compute capability & storage
+and built-in three-node high availability clustering. You can deploy Db2 on Cloud on the IBM Cloud
+platform or on Amazon Web Services. Once running, you can access your Db2 on Cloud
+databases by using the CLPPlus command line interface, the Db2 on Cloud GUI console, or
+standard APIs such as ODBC, JDBC, and REST. And you can easily load data from Excel, CSV,
+and text files, from Amazon S3 object storage using the GUI console, and you can programmatically
+load data from IBM Cloud Object Storage. Db2 provides high availability disaster recovery,
+or HADR, functionality to support high availability systems. HADR replicates changes made at a primary
+database to up to three standby servers. If the primary database fails for any reason
+- hardware, software, or network issues - you can automatically promote one of the standby
+databases to be the primary database, redirect client applications to this new primary database,
+and continue to replicate to the other standby servers in the group. When the original primary database comes back
+online, it can either take the place of a standby server or be promoted back to the
+primary position. Db2 Warehouse offers massively parallel processing
+and data analytics for BI workloads. At times, you may need to scale the storage
+capabilities of your system to meet peak demand or to reduce costs when demand is low. Data in Db2 Warehouse is stored in data nodes. To scale up your storage capacity, you just
+add a node to your deployment. The partitions and their workloads are then
+automatically rebalanced across the new node setup. Similarly, to scale down, you just remove
+a node to return to your original state. In this video, you learned that Db2 on Cloud:
+Db2 is a family of products that you can use to work with and manage your data in whatever
+way you need You can deploy Db2 across many platforms,
+both on premises and in the cloud Cloud Pak for Data includes Db2 and many IBM
+tools for data Db2 on Cloud is a fully managed, cloud-based
+SQL database that can run on IBM Cloud or AWS
+Db2 provides high availability, disaster recovery, and scalability functionality
