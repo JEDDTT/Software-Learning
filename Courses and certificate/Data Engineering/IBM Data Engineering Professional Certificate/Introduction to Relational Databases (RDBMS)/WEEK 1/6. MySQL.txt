@@ -1,0 +1,55 @@
+Welcome to MySQL
+After watching this video, you will be able to:
+Describe MySQL Explain how you can work with MySQL
+List some of the MySQL storage engines Understand MySQL high availability
+and scalability options MySQL was first developed by a Swedish
+company MySQL AB and named after My, the daughter of one of the co-founders of
+MySQL AB, Monty Widenius. The company was later acquired by Sun Microsystems, which
+in turn was acquired by Oracle Corporation. The dolphin in the MySQL logo is named Sakila, which was chosen from a list of suggestions
+made in a ‘name the dolphin’ contest. MySQL soared in popularity in the late 1990s
+and early 2000s, partly because it was a key component in the LAMP (Linux operating
+system, Apache web server, MySQL database, and PHP scripting language) stack which was being
+used to build many popular web sites at the time. MySQL is available under dual license: the open
+source GNU GPL and a commercial license for applications and solutions that embed MySQL.
+Because the GNU GPL is open source, there have been various forks of MySQL,
+the most prominent being MariaDB which is led by some of the original developers of MySQL.
+MySQL is an object-relational database management system. It is a popular low maintenance database
+and is available in various flavors and editions, including a clustered version
+for demanding workloads. You can run MySQL on many versions of UNIX,
+as well as Microsoft Windows and Linux and you can write client applications for it
+using most modern programming languages. MySQL uses standard SQL syntax, as well as its own
+extensions for additional functionality such as the LOAD DATA statement that very quickly reads
+rows from a text file into a database table. MySQL works primarily with relational
+data, but also supports JSON. Like many other RDBMS, MySQL supports multiple
+storage engines. The storage engine is the component that handles the SQL operations on a
+table and defines what features that table can use. So you base your choice of engine for a
+particular table on the expected workload and needs of that table. For example, the default
+MySQL storage engine is InnoDB which supports transactions to ensure the consistency of your
+data, row-level locking to improve multi-user performance, clustered indexes on primary
+keys to increase the performance of regularly executed queries, and foreign key constraints
+to maintain data integrity. This engine provides a balance of high performance and reliability.
+MySQL also supports the MyISAM engine which is good for workloads with mainly read operations
+and few updates, such as data warehouse or web applications. It uses table-level locking which
+inhibits performance in a read/write environment. Another commonly used engine is the NDB
+engine which supports multiple instances of MySQL servers running in a cluster. This is
+primarily used for applications that require high levels of availability and redundancy.
+MySQL supports high availability and scalability. You can use replication to create a copy of your
+data on one or more replicas. Data changes at the source database are then also performed at the
+replicas. Multiple copies of the same data means that you can share the read load for your data
+across the replica set, improving scalability. And replication also increases availability
+because if the source database fails, you can failover to use one of the replicas instead.
+MySQL provides two clustering options. The first uses the InnoDB storage engine
+with group replication and enables you to work with one read-write primary server
+and multiple secondary servers. You can then use MySQL Router to load balance client
+applications across the multiple server instances and, in the event of unplanned downtime of any
+of the servers, MySQL Router will reconnect client applications to an available server.
+Alternatively, the MySQL Cluster edition uses the NDB storage engine to provide a highly available
+and scalable solution. Multiple MySQL server nodes access a set of data nodes (usually stored in
+memory). Running multiple data nodes provides redundancy and hence increased availability
+in the event of failure, and running multiple server nodes provides for scalability.
+In this video, you learned that: MySQL is an object-relational
+database, available in various editions MySQL supports many operating systems
+MySQL supports a supports a range of languages for client application development
+MySQL supports relational and JSON data MySQL provides multiple storage
+engines for differing workloads MySQL provides high availability
+and scalability options
